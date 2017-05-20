@@ -1,0 +1,2 @@
+Assert.IsTrue(new PartitionEqualSubsetSum().CanPartition(new int[] { 1, 5, 11, 5 }));
+Assert.IsFalse(new PartitionEqualSubsetSum().CanPartition(new int[] { 1, 2, 3, 5 }));

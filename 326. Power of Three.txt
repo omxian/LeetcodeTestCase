@@ -1,0 +1,3 @@
+Assert.IsTrue(new PowerOfThree().IsPowerOfThree(9));
+Assert.IsTrue(new PowerOfThree().IsPowerOfThree((int)Math.Pow(3,18)));
+Assert.IsFalse(new PowerOfThree().IsPowerOfThree(-1));

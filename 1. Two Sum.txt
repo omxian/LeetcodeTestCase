@@ -1,0 +1,13 @@
+int[] input;
+int target;
+int[] result;
+
+input = new int[] { 3, 2, 4 };
+target = 6;
+result = new TwoSum().TwoSumSolution(input,target);
+Assert.AreEqual(input[result[0]] + input[result[1]], target);
+
+input = new int[]  {2, 7, 11, 15 };
+target = 9;
+result = new TwoSum().TwoSumSolution(input, target);
+Assert.AreEqual(input[result[0]] + input[result[1]], target);

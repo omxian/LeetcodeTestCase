@@ -1,0 +1,1 @@
+Assert.IsTrue(Util.CompareList(new int[] { 0, 1, 1, 2, 1, 2 }, new CountingBits().CountBitsSolution2(5)));

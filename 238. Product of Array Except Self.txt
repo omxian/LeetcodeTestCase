@@ -1,0 +1,3 @@
+Assert.IsTrue(Util.CompareList(new int[] { 24, 12, 8, 6 }, new ProductOfArrayExceptSelf().ProductExceptSelf(new int[] { 1, 2, 3, 4 })));
+Assert.IsTrue(Util.CompareList(new int[] { 0, 0 }, new ProductOfArrayExceptSelf().ProductExceptSelf(new int[] { 0, 0 })));
+Assert.IsTrue(Util.CompareList(new int[] { 0, 1 }, new ProductOfArrayExceptSelf().ProductExceptSelf(new int[] { 1, 0 })));

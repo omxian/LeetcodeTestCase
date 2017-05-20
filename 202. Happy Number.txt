@@ -1,0 +1,5 @@
+Assert.IsTrue(new HappyNumber().IsHappy(28));
+Assert.IsTrue(new HappyNumber().IsHappy(7));
+Assert.IsTrue(new HappyNumber().IsHappy(1));
+Assert.IsFalse(new HappyNumber().IsHappy(3));
+Assert.IsFalse(new HappyNumber().IsHappy(2));

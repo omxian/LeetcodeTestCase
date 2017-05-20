@@ -1,0 +1,19 @@
+TreeNode root = new TreeNode(6);
+TreeNode left = new TreeNode(2);
+TreeNode leftLeft = new TreeNode(0);
+TreeNode leftRight = new TreeNode(4);
+TreeNode right = new TreeNode(8);
+TreeNode rightLeft = new TreeNode(7);
+TreeNode rightRight = new TreeNode(9);
+root.left = left;
+root.left.left = leftLeft;
+root.left.right = leftRight;
+root.right = right;
+root.right.left = rightLeft;
+root.right.right = rightRight;
+
+TreeNode result = new LowestCommonAncestorOfABinarySearchTree().LowestCommonAncestor(root,left,right);
+Assert.AreEqual(result.val, root.val);
+
+result = new LowestCommonAncestorOfABinarySearchTree().LowestCommonAncestor(left.right, left.right, left.right.right);
+Assert.AreEqual(result.val, left.right.val);

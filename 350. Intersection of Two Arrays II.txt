@@ -1,0 +1,17 @@
+Assert.IsTrue(
+	Util.CompareList(
+		new int[] { },
+		new IntersectionOfTwoArraysII().Intersect(
+			new int[] { }, new int[] { })));
+
+Assert.IsTrue(
+	Util.CompareList(
+		new int[] { },
+		new IntersectionOfTwoArraysII().Intersect(
+			new int[] { }, new int[] {1})));
+
+Assert.IsTrue(
+	Util.CompareList(
+		new int[] {2,2},
+		new IntersectionOfTwoArraysII().Intersect(
+			new int[] {1,2,2,1}, new int[] {2,2})));

@@ -1,0 +1,1 @@
+Assert.IsTrue(Util.CompareList(new int[] {1,3,3,1},new Pascal_sTriangleII().GetRow(3)));

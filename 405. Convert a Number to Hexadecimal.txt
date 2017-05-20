@@ -1,0 +1,2 @@
+Assert.AreEqual("1a", new ConvertNumberToHex().ToHex(26));
+Assert.AreEqual("ffffffff", new ConvertNumberToHex().ToHex(-1));

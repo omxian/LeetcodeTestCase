@@ -1,0 +1,14 @@
+PoorPigs test = new PoorPigs();
+Assert.AreEqual(0, test.PoorPigsSolution(1, 10, 10));
+
+Assert.AreEqual(1, test.PoorPigsSolution(2, 10, 10));
+Assert.AreEqual(2, test.PoorPigsSolution(4, 10, 10));
+Assert.AreEqual(3, test.PoorPigsSolution(8, 10, 10));
+Assert.AreEqual(4, test.PoorPigsSolution(16, 10, 10));
+
+Assert.AreEqual(1, test.PoorPigsSolution(2, 10, 20));
+Assert.AreEqual(2, test.PoorPigsSolution(4, 10, 20));
+Assert.AreEqual(2, test.PoorPigsSolution(8, 10, 20));
+Assert.AreEqual(3, test.PoorPigsSolution(16, 10, 20));
+
+Assert.AreEqual(5, test.PoorPigsSolution(1000, 15, 60));

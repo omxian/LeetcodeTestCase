@@ -1,0 +1,5 @@
+Assert.AreEqual("AA", new ExcelSheetColumnTitle().ConvertToTitle(27));
+Assert.AreEqual("AB", new ExcelSheetColumnTitle().ConvertToTitle(28));
+Assert.AreEqual("A", new ExcelSheetColumnTitle().ConvertToTitle(1));
+Assert.AreEqual("C", new ExcelSheetColumnTitle().ConvertToTitle(3));
+Assert.AreEqual("Z", new ExcelSheetColumnTitle().ConvertToTitle(26));

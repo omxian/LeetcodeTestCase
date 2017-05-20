@@ -1,0 +1,5 @@
+Assert.AreEqual(3, new RomanToInt().RomanToIntSolution("III"));
+Assert.AreEqual(4, new RomanToInt().RomanToIntSolution("IV"));
+Assert.AreEqual(5, new RomanToInt().RomanToIntSolution("V"));
+Assert.AreEqual(18, new RomanToInt().RomanToIntSolution("XVIII"));
+Assert.AreEqual(3999, new RomanToInt().RomanToIntSolution("MMMCMXCIX"));

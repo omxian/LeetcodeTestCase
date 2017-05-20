@@ -1,0 +1,5 @@
+Assert.IsTrue(new PowerOfFour().IsPowerOfFour(4));
+Assert.IsTrue(new PowerOfFour().IsPowerOfFour(16));
+Assert.IsTrue(new PowerOfFour().IsPowerOfFour(1));
+Assert.IsFalse(new PowerOfFour().IsPowerOfFour(0));
+Assert.IsFalse(new PowerOfFour().IsPowerOfFour(-1));

@@ -1,0 +1,2 @@
+Assert.AreEqual(7, new LongestPalindrome().LongestPalindromeSolution("abccccdd"));
+Assert.AreEqual(55, new LongestPalindrome().LongestPalindromeSolution("zeusnilemacaronimaisanitratetartinasiaminoracamelinsuez"));

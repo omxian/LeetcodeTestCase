@@ -1,0 +1,3 @@
+Assert.AreEqual("cccaa", new SortCharactersByFrequency().FrequencySort("aaccc"));
+Assert.AreEqual("AABC", new SortCharactersByFrequency().FrequencySort("ABCA"));
+Assert.AreEqual("aaaccbb", new SortCharactersByFrequency().FrequencySort("acbacba"));

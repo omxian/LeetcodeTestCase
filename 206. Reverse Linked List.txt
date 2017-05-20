@@ -1,0 +1,10 @@
+ListNode Node1 = new ListNode(1);
+ListNode Node2 = new ListNode(2);
+ListNode Node3 = new ListNode(3);
+
+Node1.next = Node2;
+Node2.next = Node3;
+
+Node1 = new ReverseLinkedList().ReverseList(Node1);
+
+Assert.AreEqual(3,Node1.val);
