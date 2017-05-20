@@ -1,0 +1,5 @@
+Assert.IsTrue(
+	Util.CompareList(
+		new int[] {1,2},
+		new TwoSum_II().TwoSum(new int[] { 2, 7, 11, 15 }, 9)
+));

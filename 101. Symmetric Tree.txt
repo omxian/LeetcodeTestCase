@@ -1,0 +1,35 @@
+//1,2,2,3,4,4,3
+TreeNode test1_node1 = new TreeNode(1);
+TreeNode test1_node2 = new TreeNode(2);
+TreeNode test1_node3 = new TreeNode(2);
+TreeNode test1_node4 = new TreeNode(3);
+TreeNode test1_node5 = new TreeNode(4);
+TreeNode test1_node6 = new TreeNode(4);
+TreeNode test1_node7 = new TreeNode(3);
+
+test1_node1.left = test1_node2;
+test1_node1.right = test1_node3;
+test1_node2.left = test1_node4;
+test1_node2.right = test1_node5;
+test1_node3.left = test1_node6;
+test1_node3.right = test1_node7;
+
+Assert.IsTrue(new SymmetricTree().IsSymmetric(test1_node1));
+
+//1,2,2,null,3,null,3
+TreeNode test2_node1 = new TreeNode(1);
+TreeNode test2_node2 = new TreeNode(2);
+TreeNode test2_node3 = new TreeNode(2);
+TreeNode test2_node4 = new TreeNode(3);
+TreeNode test2_node5 = new TreeNode(3);
+
+test2_node1.left = test2_node2;
+test2_node1.right = test2_node3;
+test2_node2.right = test2_node4;
+test2_node3.right = test2_node5;
+
+Assert.IsFalse(new SymmetricTree().IsSymmetric(test2_node1));
+
+
+TreeNode test3_node1 = new TreeNode(1);
+Assert.IsTrue(new SymmetricTree().IsSymmetric(test3_node1));

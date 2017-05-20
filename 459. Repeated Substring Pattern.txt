@@ -1,0 +1,5 @@
+Assert.IsTrue(new RepeatedSubstringPattern().RepeatedSubstringPatternSolution("aa"));
+Assert.IsFalse(new RepeatedSubstringPattern().RepeatedSubstringPatternSolution("ava"));
+Assert.IsTrue(new RepeatedSubstringPattern().RepeatedSubstringPatternSolution("abab"));
+Assert.IsTrue(new RepeatedSubstringPattern().RepeatedSubstringPatternSolution("ababab"));
+Assert.IsTrue(new RepeatedSubstringPattern().RepeatedSubstringPatternSolution("aaaaaaaaaaaaaaaaaaaaa"));

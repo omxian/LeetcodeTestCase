@@ -1,0 +1,18 @@
+ListNode node1_1 = new ListNode(1);
+ListNode node1_2 = new ListNode(7);
+ListNode node1_3 = new ListNode(8);
+
+node1_1.next = node1_2;
+node1_2.next = node1_3;
+
+ListNode node2_1 = new ListNode(2);
+ListNode node2_2 = new ListNode(3);
+ListNode node2_3 = new ListNode(9);
+
+node2_1.next = node2_2;
+node2_2.next = node2_3;
+
+ListNode result = new MergeTwoSortedLists().MergeTwoLists(node1_1, node2_1);
+
+Assert.AreEqual(1, result.val);
+Assert.AreEqual(2, result.next.val);

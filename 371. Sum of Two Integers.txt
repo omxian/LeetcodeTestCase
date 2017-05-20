@@ -1,0 +1,1 @@
+Assert.AreEqual(6, new SumTwoIntegers().GetSum(2, 4));

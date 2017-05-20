@@ -1,0 +1,1 @@
+Assert.AreEqual(2, new HammingDistance().HammingDistanceSolution(1, 4));

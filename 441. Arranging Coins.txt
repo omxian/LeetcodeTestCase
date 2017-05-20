@@ -1,0 +1,2 @@
+Assert.AreEqual(2, new ArrangingCoins().ArrangeCoinsSolution(5));
+Assert.AreEqual(3, new ArrangingCoins().ArrangeCoinsSolution(8));

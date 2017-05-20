@@ -1,0 +1,2 @@
+Assert.AreEqual(2, new AddDigits().AddDigitsSolution(11));
+Assert.AreEqual(2, new AddDigits().AddDigitsSolution(38));

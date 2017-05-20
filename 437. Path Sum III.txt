@@ -1,0 +1,47 @@
+//[10,5,-3,3,2,null,11,3,-2,null,1]
+TreeNode test1_node1 = new TreeNode(10);
+TreeNode test1_node2 = new TreeNode(5);
+TreeNode test1_node3 = new TreeNode(-3);
+TreeNode test1_node4 = new TreeNode(3);
+TreeNode test1_node5 = new TreeNode(2);
+TreeNode test1_node6 = new TreeNode(11);
+TreeNode test1_node7 = new TreeNode(3);
+TreeNode test1_node8 = new TreeNode(-2);
+TreeNode test1_node9 = new TreeNode(1);
+
+test1_node1.left = test1_node2;
+test1_node1.right = test1_node3;
+test1_node2.left = test1_node4;
+test1_node2.right = test1_node5;
+test1_node3.right = test1_node6;
+test1_node4.left = test1_node7;
+test1_node4.right = test1_node8;
+test1_node5.right = test1_node9;
+
+Assert.AreEqual(3, new PathSumIII().PathSum(test1_node1, 8));
+
+TreeNode test2_node1 = new TreeNode(5);
+TreeNode test2_node2 = new TreeNode(4);
+TreeNode test2_node3 = new TreeNode(8);
+TreeNode test2_node4 = new TreeNode(11);
+TreeNode test2_node5 = new TreeNode(13);
+TreeNode test2_node6 = new TreeNode(4);
+TreeNode test2_node7 = new TreeNode(7);
+TreeNode test2_node8 = new TreeNode(2);
+TreeNode test2_node9 = new TreeNode(5);
+TreeNode test2_node10 = new TreeNode(1);
+
+test2_node1.left = test2_node2;
+test2_node1.right = test2_node3;
+test2_node2.left = test2_node4;
+test2_node3.left = test2_node5;
+test2_node3.right = test2_node6;
+test2_node4.left = test2_node7;
+test2_node4.right = test2_node8;
+test2_node5.left = test2_node9;
+test2_node5.right = test2_node10;
+
+Assert.AreEqual(3, new PathSumIII().PathSum(test2_node1, 22));
+
+TreeNode test3_node1 = new TreeNode(1);
+Assert.AreEqual(1, new PathSumIII().PathSum(test3_node1, 1));

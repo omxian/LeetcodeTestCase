@@ -1,0 +1,9 @@
+Assert.IsTrue(new UglyNumber().IsUgly(1));
+Assert.IsTrue(new UglyNumber().IsUgly(2));
+Assert.IsTrue(new UglyNumber().IsUgly(3));
+Assert.IsTrue(new UglyNumber().IsUgly(5));
+Assert.IsTrue(new UglyNumber().IsUgly(6));
+Assert.IsTrue(new UglyNumber().IsUgly(8));
+Assert.IsFalse(new UglyNumber().IsUgly(0));
+Assert.IsFalse(new UglyNumber().IsUgly(14));
+Assert.IsFalse(new UglyNumber().IsUgly(7));

@@ -1,0 +1,4 @@
+Assert.IsFalse(new RansomNote().CanConstruct("a", "b"));
+Assert.IsFalse(new RansomNote().CanConstruct("aa", "ab"));
+Assert.IsTrue(new RansomNote().CanConstruct("aa", "aab"));
+Assert.IsTrue(new RansomNote().CanConstruct("fffbfg", "effjfggbffjdgbjjhhdegh"));

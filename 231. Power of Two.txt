@@ -1,0 +1,7 @@
+Assert.IsFalse(new PowerOfTwo().IsPowerOfTwo(-1));
+Assert.IsFalse(new PowerOfTwo().IsPowerOfTwo(0));
+Assert.IsTrue(new PowerOfTwo().IsPowerOfTwo(2));
+Assert.IsTrue(new PowerOfTwo().IsPowerOfTwo(4));
+Assert.IsFalse(new PowerOfTwo().IsPowerOfTwo(6));
+Assert.IsTrue(new PowerOfTwo().IsPowerOfTwo(8));
+Assert.IsFalse(new PowerOfTwo().IsPowerOfTwo(11));

@@ -1,0 +1,4 @@
+Assert.AreEqual(27, new ExcelSheetColumnNumber().TitleToNumber("AA"));
+Assert.AreEqual(1, new ExcelSheetColumnNumber().TitleToNumber("A"));
+Assert.AreEqual(28, new ExcelSheetColumnNumber().TitleToNumber("AB"));
+Assert.AreEqual(3, new ExcelSheetColumnNumber().TitleToNumber("C"));
