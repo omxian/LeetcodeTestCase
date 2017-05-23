@@ -1,0 +1,5 @@
+Assert.IsTrue(new ContainsDuplicateII().ContainsNearbyDuplicate(new int[] { 1, 1, 1, 1 }, 2));
+Assert.IsTrue(new ContainsDuplicateII().ContainsNearbyDuplicate(new int[] { 99, 99 }, 2));
+Assert.IsFalse(new ContainsDuplicateII().ContainsNearbyDuplicate(new int[] { 1 }, 1));
+Assert.IsTrue(new ContainsDuplicateII().ContainsNearbyDuplicate(new int[] { 2, 2 }, 3));
+Assert.IsTrue(new ContainsDuplicateII().ContainsNearbyDuplicate(new int[] { 1,0,1,1 }, 1));

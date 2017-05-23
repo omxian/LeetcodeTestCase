@@ -1,0 +1,3 @@
+uint input = 43261596;
+uint result = 964176192;
+Assert.AreEqual(result, new ReverseBits().reverseBits(input));
