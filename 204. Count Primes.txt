@@ -1,0 +1,3 @@
+Assert.AreEqual(2, new CountPrimes().CountPrimesSolution(5));
+Assert.AreEqual(3, new CountPrimes().CountPrimesSolution(6));
+Assert.AreEqual(8, new CountPrimes().CountPrimesSolution(20));
