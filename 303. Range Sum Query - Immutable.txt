@@ -1,0 +1,5 @@
+NumArray2 obj = new NumArray2(new int[] { -2, 0, 3, -5, 2, -1 });
+Assert.AreEqual(1, obj.SumRange(0, 2));
+Assert.AreEqual(-1, obj.SumRange(2, 5));
+Assert.AreEqual(-3, obj.SumRange(0, 5));
+Assert.AreEqual(-2, obj.SumRange(0, 0));

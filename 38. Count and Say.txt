@@ -1,0 +1,5 @@
+Assert.AreEqual("1", new CountAndSay().CountAndSaySolution(1));
+Assert.AreEqual("11", new CountAndSay().CountAndSaySolution(2));
+Assert.AreEqual("21", new CountAndSay().CountAndSaySolution(3));
+Assert.AreEqual("1211", new CountAndSay().CountAndSaySolution(4));
+Assert.AreEqual("111221", new CountAndSay().CountAndSaySolution(5));
