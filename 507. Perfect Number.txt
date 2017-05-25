@@ -1,0 +1,3 @@
+Assert.IsTrue(new PerfectNumber().CheckPerfectNumber(28));
+Assert.IsFalse(new PerfectNumber().CheckPerfectNumber(0));
+Assert.IsFalse(new PerfectNumber().CheckPerfectNumber(2));
