@@ -1,0 +1,38 @@
+TreeNode node1 = new TreeNode(1);
+TreeNode node2 = new TreeNode(2);
+TreeNode node3 = new TreeNode(3);
+TreeNode node4 = new TreeNode(4);
+TreeNode node5 = new TreeNode(5);
+TreeNode node6 = new TreeNode(6);
+
+node1.left = node2;
+node1.right = node3;
+node2.left = node4;
+node2.right = node5;
+node5.left = node6;
+
+Assert.IsTrue(Util.CompareList(new string[] {"1->2->4","1->2->5->6","1->3"}, new BinaryTreePaths().BinaryTreePathsSolution(node1)));
+
+TreeNode test_node1 = new TreeNode(1);
+TreeNode test_node2 = new TreeNode(2);
+TreeNode test_node3 = new TreeNode(3);
+TreeNode test_node4 = new TreeNode(4);
+TreeNode test_node5 = new TreeNode(5);
+TreeNode test_node6 = new TreeNode(6);
+TreeNode test_node7 = new TreeNode(7);
+TreeNode test_node8 = new TreeNode(8);
+
+test_node1.left = test_node2;
+test_node1.right = test_node3;
+test_node2.left = test_node4;
+test_node2.right = test_node5;
+test_node4.left = test_node7;
+test_node3.right = test_node6;
+test_node6.right = test_node8;
+
+Assert.IsTrue(Util.CompareList(new string[] { "1->2->4->7", "1->2->5", "1->3->6->8" }, new BinaryTreePaths().BinaryTreePathsSolution(test_node1)));
+
+TreeNode test2_1 = new TreeNode(1);
+TreeNode test2_2 = new TreeNode(2);
+test2_1.left = test2_2;
+Assert.IsTrue(Util.CompareList(new string[] { "1->2" }, new BinaryTreePaths().BinaryTreePathsSolution(test2_1)));

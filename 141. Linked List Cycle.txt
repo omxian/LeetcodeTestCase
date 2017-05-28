@@ -1,0 +1,27 @@
+{
+	ListNode test1_1 = new ListNode(1);
+	test1_1.next = test1_1;
+	Assert.IsTrue(new LinkedListCycle().HasCycle2(test1_1));
+}
+
+{
+	ListNode test2_1 = new ListNode(1);
+	ListNode test2_2 = new ListNode(1);
+	test2_1.next = test2_2;
+	test2_2.next = test2_2;
+	Assert.IsTrue(new LinkedListCycle().HasCycle2(test2_1));
+}
+
+{
+	ListNode test3_1 = new ListNode(1);
+	ListNode test3_2 = new ListNode(1);
+	test3_1.next = test3_2;
+	test3_2.next = test3_1;
+	Assert.IsTrue(new LinkedListCycle().HasCycle2(test3_1));
+}
+{
+	ListNode test4_1 = new ListNode(1);
+	ListNode test4_2 = new ListNode(1);
+	test4_1.next = test4_2;
+	Assert.IsFalse(new LinkedListCycle().HasCycle2(test4_1));
+}

@@ -1,0 +1,4 @@
+Assert.AreEqual(1, new FactorialTrailingZeroes().TrailingZeroes(5));
+Assert.AreEqual(2, new FactorialTrailingZeroes().TrailingZeroes(10));
+Assert.AreEqual(3, new FactorialTrailingZeroes().TrailingZeroes(15));
+Assert.AreEqual(6, new FactorialTrailingZeroes().TrailingZeroes(25));

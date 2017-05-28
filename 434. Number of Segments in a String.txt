@@ -1,0 +1,8 @@
+Assert.AreEqual(0, new NumberOfSegmentsInString().CountSegments(" "));
+Assert.AreEqual(0, new NumberOfSegmentsInString().CountSegments("   "));
+Assert.AreEqual(1, new NumberOfSegmentsInString().CountSegments("1"));
+Assert.AreEqual(2, new NumberOfSegmentsInString().CountSegments("2 1"));
+Assert.AreEqual(3, new NumberOfSegmentsInString().CountSegments("2 1 v"));
+Assert.AreEqual(13, new NumberOfSegmentsInString().CountSegments("Of all the gin joints in all the towns in all the world,   "));
+Assert.AreEqual(6, new NumberOfSegmentsInString().CountSegments(", , , ,        a, eaefa"));
+

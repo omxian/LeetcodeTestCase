@@ -1,0 +1,8 @@
+Assert.AreEqual("fdcqkmxwholhytmhafpesaentdvxginrjlyqzyhehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqllgsqddebemjanqcqnfkjmi", 
+	new ReverseStringII().ReverseStr("hyzqyljrnigxvdtneasepfahmtyhlohwxmkqcdfehybknvdmfrfvtbsovjbdhevlfxpdaovjgunjqlimjkfnqcqnajmebeddqsgl", 39));
+Assert.AreEqual("dcba", new ReverseStringII().ReverseStr("abcd", 4));
+Assert.AreEqual("bacd", new ReverseStringII().ReverseStr("abcd", 2));
+Assert.AreEqual("cbad", new ReverseStringII().ReverseStr("abcd", 3));
+Assert.AreEqual("bacdfeg", new ReverseStringII().ReverseStr("abcdefg", 2));
+Assert.AreEqual("bacdfegh", new ReverseStringII().ReverseStr("abcdefgh", 2));
+Assert.AreEqual("gfedcba", new ReverseStringII().ReverseStr("abcdefg", 10));
