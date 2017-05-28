@@ -1,0 +1,2 @@
+Assert.AreEqual(2, new NumberComplement().FindComplement(5));
+Assert.AreEqual(0, new NumberComplement().FindComplement(1));

@@ -1,0 +1,3 @@
+Assert.AreEqual(0, new TeemoAttacking().FindPoisonedDuration(new int[] { }, 2));
+Assert.AreEqual(4, new TeemoAttacking().FindPoisonedDuration(new int[] { 1, 4 }, 2));
+Assert.AreEqual(3, new TeemoAttacking().FindPoisonedDuration(new int[] { 1, 2 }, 2));
