@@ -1,0 +1,5 @@
+Assert.IsTrue(new ValidPalindrome().IsPalindrome("A man, a plan, a canal: Panama"));
+Assert.IsFalse(new ValidPalindrome().IsPalindrome("race a car"));
+Assert.IsTrue(new ValidPalindrome().IsPalindrome("."));
+Assert.IsTrue(new ValidPalindrome().IsPalindrome("  "));
+Assert.IsTrue(new ValidPalindrome().IsPalindrome("aa"));

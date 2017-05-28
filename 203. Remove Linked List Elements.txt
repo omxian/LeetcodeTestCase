@@ -1,0 +1,22 @@
+ListNode test1_1 = new ListNode(1);
+ListNode test1_2 = new ListNode(2);
+ListNode test1_3 = new ListNode(3);
+ListNode test1_4 = new ListNode(4);
+test1_1.next = test1_2;
+test1_2.next = test1_3;
+test1_3.next = test1_4;
+
+test1_1 = new RemoveLinkedListElements().RemoveElements(test1_1,1);
+Assert.AreEqual(2, test1_1.val);
+
+ListNode test2_1 = new ListNode(1);
+ListNode test2_2 = new ListNode(2);
+ListNode test2_3 = new ListNode(3);
+ListNode test2_4 = new ListNode(4);
+test2_1.next = test1_2;
+test2_2.next = test1_3;
+test2_3.next = test1_4;
+test2_1 = new RemoveLinkedListElements().RemoveElements(test2_1, 2);
+
+Assert.AreEqual(1, test2_1.val);
+Assert.AreEqual(3, test2_1.next.val);

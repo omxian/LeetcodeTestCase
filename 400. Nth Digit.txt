@@ -1,0 +1,3 @@
+Assert.AreEqual(3, new NthDigit().FindNthDigit(3));
+Assert.AreEqual(0, new NthDigit().FindNthDigit(11));
+Assert.AreEqual(1, new NthDigit().FindNthDigit(1));

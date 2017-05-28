@@ -1,0 +1,36 @@
+TreeNode node1 = new TreeNode(1);
+TreeNode node2 = new TreeNode(1);
+TreeNode node3 = new TreeNode(1);
+TreeNode node4 = new TreeNode(1);
+TreeNode node5 = new TreeNode(1);
+TreeNode node6 = new TreeNode(1);
+
+node1.left = node2;
+node1.right = node3;
+node2.left = node4;
+node2.right = node5;
+node5.left = node6;
+
+Assert.AreEqual(4, new BalancedBinaryTree().GetDepth(node1));
+Assert.IsFalse(new BalancedBinaryTree().IsBalanced(node1));
+
+
+TreeNode test_node1 = new TreeNode(1);
+TreeNode test_node2 = new TreeNode(1);
+TreeNode test_node3 = new TreeNode(1);
+TreeNode test_node4 = new TreeNode(1);
+TreeNode test_node5 = new TreeNode(1);
+TreeNode test_node6 = new TreeNode(1);
+TreeNode test_node7 = new TreeNode(1);
+TreeNode test_node8 = new TreeNode(1);
+
+test_node1.left = test_node2;
+test_node1.right = test_node3;
+test_node2.left = test_node4;
+test_node2.right = test_node5;
+test_node4.left = test_node7;
+test_node3.right = test_node6;
+test_node6.right = test_node8;
+
+Assert.AreEqual(4, new BalancedBinaryTree().GetDepth(test_node1));
+Assert.IsFalse(new BalancedBinaryTree().IsBalanced(test_node1));

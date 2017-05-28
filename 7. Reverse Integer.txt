@@ -1,0 +1,3 @@
+Assert.AreEqual(321, new ReverseInteger().Reverse(123));
+Assert.AreEqual(-321, new ReverseInteger().Reverse(-123));
+Assert.AreEqual(0, new ReverseInteger().Reverse(-2147483648));
