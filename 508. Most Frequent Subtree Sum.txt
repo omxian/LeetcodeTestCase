@@ -1,0 +1,15 @@
+TreeNode t1_node1 = new TreeNode(5);
+TreeNode t1_node2 = new TreeNode(2);
+TreeNode t1_node3 = new TreeNode(-3);
+t1_node1.left = t1_node2;
+t1_node1.right = t1_node3;
+
+Assert.IsTrue(Util.CompareList(new int[] {2,-3,4}, new MostFrequentSubtreeSum().FindFrequentTreeSum(t1_node1)));
+
+TreeNode t2_node1 = new TreeNode(5);
+TreeNode t2_node2 = new TreeNode(2);
+TreeNode t2_node3 = new TreeNode(-5);
+t2_node1.left = t2_node2;
+t2_node1.right = t2_node3;
+
+Assert.IsTrue(Util.CompareList(new int[] {2}, new MostFrequentSubtreeSum().FindFrequentTreeSum(t2_node1)));

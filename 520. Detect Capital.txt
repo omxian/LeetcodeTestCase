@@ -1,0 +1,7 @@
+Assert.IsTrue(new DetectCapital().DetectCapitalUse("USA"));
+Assert.IsTrue(new DetectCapital().DetectCapitalUse("usa"));
+Assert.IsTrue(new DetectCapital().DetectCapitalUse("Usa"));
+Assert.IsTrue(new DetectCapital().DetectCapitalUse("U"));
+Assert.IsTrue(new DetectCapital().DetectCapitalUse("u"));
+Assert.IsFalse(new DetectCapital().DetectCapitalUse("saA"));
+Assert.IsFalse(new DetectCapital().DetectCapitalUse("sAA"));
