@@ -1,0 +1,48 @@
+//[1,2,3]
+TreeNode node0 = new TreeNode(1);
+TreeNode node1 = new TreeNode(2);
+TreeNode node2 = new TreeNode(3);
+node0.left = node1;
+node0.right = node2;
+
+//[1,2,3,4,null,5]
+TreeNode test1_node0 = new TreeNode(1);
+TreeNode test1_node1 = new TreeNode(2);
+TreeNode test1_node2 = new TreeNode(3);
+TreeNode test1_node3 = new TreeNode(4);
+TreeNode test1_node4 = new TreeNode(5);
+
+test1_node0.left = test1_node1;
+test1_node0.right = test1_node2;
+test1_node1.left = test1_node3;
+test1_node2.left = test1_node4;
+
+//[1,2,null,3,4]
+TreeNode test2_node0 = new TreeNode(1);
+TreeNode test2_node1 = new TreeNode(2);
+TreeNode test2_node2 = new TreeNode(3);
+TreeNode test2_node3 = new TreeNode(4);
+
+test2_node0.left = test2_node1;
+test2_node1.left = test2_node2;
+test2_node1.right = test2_node3;
+
+//[-8,3,0,-8,null,null,null,null,-1,null,8]
+TreeNode test3_node0 = new TreeNode(-8);
+TreeNode test3_node1 = new TreeNode(3);
+TreeNode test3_node2 = new TreeNode(0);
+TreeNode test3_node3 = new TreeNode(-8);
+TreeNode test3_node4 = new TreeNode(-1);
+TreeNode test3_node5 = new TreeNode(8);
+
+test3_node0.left = test3_node1;
+test3_node0.right = test3_node2;
+test3_node1.left = test3_node3;
+test3_node3.right = test3_node4;
+test3_node4.right = test3_node5;
+
+Assert.AreEqual(1, new BinaryTreeTilt().FindTilt(node0));
+Assert.AreEqual(0, new BinaryTreeTilt().FindTilt(null));
+Assert.AreEqual(11, new BinaryTreeTilt().FindTilt(test1_node0));
+Assert.AreEqual(10, new BinaryTreeTilt().FindTilt(test2_node0));
+Assert.AreEqual(18, new BinaryTreeTilt().FindTilt(test3_node0));

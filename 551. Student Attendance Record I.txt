@@ -1,0 +1,2 @@
+Assert.IsTrue(new StudentAttendanceRecordI().CheckRecord("PPALLP"));
+Assert.IsFalse(new StudentAttendanceRecordI().CheckRecord("PPALLL"));
