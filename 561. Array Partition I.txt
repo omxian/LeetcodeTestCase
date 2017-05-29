@@ -1,0 +1,1 @@
+Assert.AreEqual(4, new ArrayPartitionI().ArrayPairSum(new int[] {1,4,3,2}));
