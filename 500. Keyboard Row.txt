@@ -1,0 +1,5 @@
+Assert.IsTrue(
+	Util.CompareList(
+		new string[] { "Alaska", "Dad" },
+		new KeyboardRow().FindWords(new string[] { "Hello", "Alaska", "Dad", "Peace" })
+		));

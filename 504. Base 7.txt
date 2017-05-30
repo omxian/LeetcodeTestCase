@@ -1,0 +1,4 @@
+Assert.AreEqual("13", new Base7().ConvertToBase7(10));
+Assert.AreEqual("202", new Base7().ConvertToBase7(100));
+Assert.AreEqual("-10", new Base7().ConvertToBase7(-7));
+Assert.AreEqual("-11", new Base7().ConvertToBase7(-8));
