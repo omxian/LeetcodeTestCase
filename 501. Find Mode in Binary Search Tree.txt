@@ -1,0 +1,8 @@
+TreeNode node0 = new TreeNode(1);
+TreeNode node1 = new TreeNode(2);
+TreeNode node2 = new TreeNode(2);
+
+node0.right = node1;
+node1.left = node2;
+
+Assert.IsTrue(Util.CompareList(new int[] {2},new FindModeInBST().FindMode(node0)));
