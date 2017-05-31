@@ -1,0 +1,5 @@
+int[] arr = new int[5];
+arr[0] = 0;
+arr[1] = 1;
+new MergeSortedArray().Merge(arr, 2, new int[] { 2, 3, 4 }, 3);
+Assert.IsTrue(Util.CompareList(arr,new int[] {0,1,2,3,4}));
