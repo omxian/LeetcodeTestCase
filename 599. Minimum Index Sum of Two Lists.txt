@@ -1,0 +1,17 @@
+Assert.IsTrue(
+	Util.CompareList(
+		new string[] { "Shogun" },
+		new MinimumIndexSumOfTwoLists().FindRestaurant(new string[] { "Shogun", "Tapioca Express", "Burger King", "KFC" }, new string[] { "Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun" })
+		));
+
+Assert.IsTrue(
+	Util.CompareList(
+		new string[] { "Shogun" },
+		new MinimumIndexSumOfTwoLists().FindRestaurant(new string[] { "Shogun", "Tapioca Express", "Burger King", "KFC" }, new string[] { "KFC", "Shogun", "Burger King" })
+		));
+
+Assert.IsTrue(
+	Util.CompareList(
+		new string[] {},
+		new MinimumIndexSumOfTwoLists().FindRestaurant(new string[] {}, new string[] { "KFC", "Shogun", "Burger King" })
+		));
