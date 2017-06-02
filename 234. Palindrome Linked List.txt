@@ -1,0 +1,19 @@
+ListNode test1_1 = new ListNode(1);
+ListNode test1_2 = new ListNode(2);
+ListNode test1_3 = new ListNode(2);
+ListNode test1_4 = new ListNode(1);
+test1_1.next = test1_2;
+test1_2.next = test1_3;
+test1_3.next = test1_4;
+
+Assert.IsTrue(new PalindromeLinkedList().IsPalindrome(test1_1));
+
+ListNode test2_1 = new ListNode(1);
+ListNode test2_2 = new ListNode(2);
+ListNode test2_3 = new ListNode(3);
+ListNode test2_4 = new ListNode(4);
+test2_1.next = test2_2;
+test2_2.next = test2_3;
+test2_3.next = test2_4;
+
+Assert.IsFalse(new PalindromeLinkedList().IsPalindrome(test2_1));
