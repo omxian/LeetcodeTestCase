@@ -1,0 +1,6 @@
+// 1, 2, 3, 4
+Assert.IsTrue(
+	Util.CompareList(
+		new[,] { { 1, 2, 3, 4 } }, 
+		new ReshapeTheMatrix().MatrixReshape(new int[,] { { 1, 2 }, { 3, 4 } }, 1, 4))
+		);

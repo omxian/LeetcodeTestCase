@@ -1,0 +1,2 @@
+Assert.AreEqual(3, new DistributeCandies().DistributeCandiesSolution(new int[] { 1, 1, 2, 2, 3, 3 }));
+Assert.AreEqual(2, new DistributeCandies().DistributeCandiesSolution(new int[] { 1, 1, 2, 3 }));

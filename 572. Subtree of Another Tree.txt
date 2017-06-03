@@ -1,0 +1,39 @@
+TreeNode test1_node0 = new TreeNode(3);
+TreeNode test1_node1 = new TreeNode(4);
+TreeNode test1_node2 = new TreeNode(5);
+TreeNode test1_node3 = new TreeNode(1);
+TreeNode test1_node4 = new TreeNode(2);
+TreeNode test1_node5 = new TreeNode(0);
+test1_node0.left = test1_node1;
+test1_node0.right = test1_node2;
+test1_node1.left = test1_node3;
+test1_node1.right = test1_node4;
+
+TreeNode target_node0 = new TreeNode(4);
+TreeNode target_node1 = new TreeNode(1);
+TreeNode target_node2 = new TreeNode(2);
+target_node0.left = target_node1;
+target_node0.right = target_node2;
+
+Assert.IsTrue(new SubtreeOfAnotherTree().IsSubtree(test1_node0, target_node0));
+
+TreeNode test2_node0 = new TreeNode(0);
+test1_node4.left = test2_node0;
+Assert.IsFalse(new SubtreeOfAnotherTree().IsSubtree(test1_node0, target_node0));
+
+TreeNode test3_node0 = new TreeNode(1);
+TreeNode test3_node1 = new TreeNode(1);
+TreeNode test3_node2 = new TreeNode(1);
+TreeNode test3_node3 = new TreeNode(1);
+TreeNode test3_node4 = new TreeNode(2);
+test3_node0.right = test3_node1;
+test3_node1.right = test3_node2;
+test3_node2.right = test3_node3;
+test3_node2.left = test3_node4;
+
+TreeNode test3_target_node0 = new TreeNode(1);
+TreeNode test3_target_node1 = new TreeNode(2);
+TreeNode test3_target_node2 = new TreeNode(1);
+test3_target_node0.left = test3_target_node1;
+test3_target_node0.right = test3_target_node2;
+Assert.IsTrue(new SubtreeOfAnotherTree().IsSubtree(test3_node0, test3_target_node0));
