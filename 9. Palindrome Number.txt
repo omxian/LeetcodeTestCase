@@ -1,0 +1,4 @@
+Assert.IsTrue(new PalindromeNumber().IsPalindrome(121));
+Assert.IsFalse(new PalindromeNumber().IsPalindrome(12));
+Assert.IsTrue(new PalindromeNumber().IsPalindrome(11));
+Assert.IsTrue(new PalindromeNumber().IsPalindrome(1));
