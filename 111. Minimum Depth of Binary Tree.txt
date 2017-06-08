@@ -1,0 +1,12 @@
+TreeNode test0_1 = new TreeNode(1);
+Assert.AreEqual(1, new MinimumDepthOfBinaryTree().MinDepth(test0_1));
+
+Assert.AreEqual(0, new MinimumDepthOfBinaryTree().MinDepth(null));
+
+TreeNode test1_1 = new TreeNode(1);
+TreeNode test1_2 = new TreeNode(2);
+TreeNode test1_3 = new TreeNode(3);
+test1_1.left = test1_2;
+test1_2.right = test1_3;
+
+Assert.AreEqual(3, new MinimumDepthOfBinaryTree().MinDepth(test1_1));
