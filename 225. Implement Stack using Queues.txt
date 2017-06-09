@@ -1,0 +1,11 @@
+MyStack stack = new MyStack();
+stack.Push(1);
+stack.Push(2);
+
+Assert.AreEqual(2,stack.Pop());
+Assert.AreEqual(1, stack.Pop());
+Assert.IsTrue(stack.Empty());
+stack.Push(1);
+stack.Push(2);
+
+Assert.AreEqual(2, stack.Top());
