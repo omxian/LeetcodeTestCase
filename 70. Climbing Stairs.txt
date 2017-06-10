@@ -1,0 +1,4 @@
+Assert.AreEqual(1, new ClimbingStairs().ClimbStairsRecursion(1));
+Assert.AreEqual(2, new ClimbingStairs().ClimbStairsRecursion(2));
+Assert.AreEqual(3, new ClimbingStairs().ClimbStairsRecursion(3));
+Assert.AreEqual(5, new ClimbingStairs().ClimbStairsRecursion(4));
