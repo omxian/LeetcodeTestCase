@@ -1,0 +1,23 @@
+char[,] board = new char[,] {
+	{'A','B','C','E'},
+	{'S','F','C','S'},
+	{'A','D','E','E'}
+};
+
+Assert.IsTrue(new WordSearch().Exist(board, "ABCCED"));
+Assert.IsTrue(new WordSearch().Exist(board, "SEE"));
+Assert.IsFalse(new WordSearch().Exist(board, "ABCB"));
+
+board = new char[,] {
+	{'a','a'}
+};
+
+Assert.IsFalse(new WordSearch().Exist(board, "aaa"));
+
+board = new char[,] {
+	{'A','B','C','E'},
+	{'S','F','E','S'},
+	{'A','D','E','E'}
+};
+
+Assert.IsTrue(new WordSearch().Exist(board, "ABCESEEEFS"));
