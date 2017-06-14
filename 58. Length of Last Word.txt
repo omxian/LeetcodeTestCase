@@ -1,0 +1,7 @@
+Assert.AreEqual(5, new LengthOfLastWord().LengthOfLastWordSolution("a xcsde"));
+Assert.AreEqual(5, new LengthOfLastWord().LengthOfLastWordSolution("xcsde"));
+Assert.AreEqual(0, new LengthOfLastWord().LengthOfLastWordSolution(""));
+Assert.AreEqual(1, new LengthOfLastWord().LengthOfLastWordSolution("a "));
+Assert.AreEqual(1, new LengthOfLastWord().LengthOfLastWordSolution(" a"));
+Assert.AreEqual(1, new LengthOfLastWord().LengthOfLastWordSolution(" a "));
+Assert.AreEqual(0, new LengthOfLastWord().LengthOfLastWordSolution(" "));
