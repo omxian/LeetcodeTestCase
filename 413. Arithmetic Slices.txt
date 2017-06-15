@@ -1,0 +1,6 @@
+Assert.AreEqual(0, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2 }));
+Assert.AreEqual(1, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2, 3 }));
+Assert.AreEqual(3, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2, 3, 4 }));
+Assert.AreEqual(6, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2, 3, 4, 5 }));
+Assert.AreEqual(10, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2, 3, 4, 5, 6 }));
+Assert.AreEqual(2, new ArithmeticSlices().NumberOfArithmeticSlices(new int[] { 1, 2, 3, 8, 9, 10 }));
