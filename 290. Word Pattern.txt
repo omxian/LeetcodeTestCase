@@ -1,0 +1,4 @@
+Assert.IsTrue(new WordPattern().WordPatternSolution("abba", "dog cat cat dog"));
+Assert.IsFalse(new WordPattern().WordPatternSolution("abba", "dog cat cat fish"));
+Assert.IsFalse(new WordPattern().WordPatternSolution("aaaa", "dog cat cat dog"));
+Assert.IsFalse(new WordPattern().WordPatternSolution("abba", "dog dog dog dog"));
