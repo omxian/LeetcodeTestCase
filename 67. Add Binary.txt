@@ -1,0 +1,10 @@
+Assert.AreEqual("100", new AddBinary().AddBinarySolution("11", "1"));
+Assert.AreEqual("0", new AddBinary().AddBinarySolution("0", "0"));
+Assert.AreEqual("1", new AddBinary().AddBinarySolution("1", "0"));
+Assert.AreEqual("1", new AddBinary().AddBinarySolution("0", "1"));
+Assert.AreEqual("11110", new AddBinary().AddBinarySolution("1111", "1111"));
+
+//overflow test
+Assert.AreEqual("110111101100010011000101110110100000011101000101011001000011011000001100011110011010010011000000000", new AddBinary().AddBinarySolution(
+		"10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101",
+	"110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"));
