@@ -1,0 +1,37 @@
+{
+	ListNode node0 = new ListNode(1);
+	ListNode node1 = new ListNode(1);
+	ListNode node2 = new ListNode(2);
+	node0.next = node1;
+	node1.next = node2;
+
+	node0 = new RemoveDuplicatesFromSortedList().DeleteDuplicates(node0);
+	Assert.AreEqual(2,node0.next.val);
+}
+
+{
+	ListNode node0 = new ListNode(1);
+	ListNode node1 = new ListNode(1);
+	ListNode node2 = new ListNode(2);
+	ListNode node3 = new ListNode(3);
+	ListNode node4 = new ListNode(3);
+	node0.next = node1;
+	node1.next = node2;
+	node2.next = node3;
+	node3.next = node4;
+
+	node0 = new RemoveDuplicatesFromSortedList().DeleteDuplicates(node0);
+
+	Assert.AreEqual(2, node0.next.val);
+}
+
+{
+	ListNode node0 = new ListNode(1);
+	ListNode node1 = new ListNode(1);
+	ListNode node2 = new ListNode(1);
+	node0.next = node1;
+	node1.next = node2;
+
+	node0 = new RemoveDuplicatesFromSortedList().DeleteDuplicates(node0);
+	Assert.AreEqual(null, node0.next);
+}
