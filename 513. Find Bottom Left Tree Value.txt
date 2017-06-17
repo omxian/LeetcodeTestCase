@@ -1,0 +1,34 @@
+TreeNode test0_node0 = new TreeNode(2);
+TreeNode test0_node1 = new TreeNode(1);
+TreeNode test0_node2 = new TreeNode(3);
+
+test0_node0.left = test0_node1;
+test0_node0.right = test0_node2;
+
+
+Assert.AreEqual(1,new FindBottomLeftTreeValue().FindBottomLeftValue(test0_node0));
+
+TreeNode test1_node0 = new TreeNode(1);
+TreeNode test1_node1 = new TreeNode(2);
+TreeNode test1_node2 = new TreeNode(3);
+TreeNode test1_node3 = new TreeNode(4);
+TreeNode test1_node4 = new TreeNode(5);
+TreeNode test1_node5 = new TreeNode(6);
+TreeNode test1_node6 = new TreeNode(7);
+
+test1_node0.left = test1_node1;
+test1_node0.right = test1_node2;
+test1_node1.left = test1_node3;
+
+test1_node2.left = test1_node4;
+test1_node2.right = test1_node5;
+
+test1_node4.left = test1_node6;
+
+Assert.AreEqual(7, new FindBottomLeftTreeValue().FindBottomLeftValue(test1_node0));
+
+
+TreeNode test2_node0 = new TreeNode(0);
+TreeNode test2_node1 = new TreeNode(-1);
+test2_node0.right = test2_node1;
+Assert.AreEqual(-1, new FindBottomLeftTreeValue().FindBottomLeftValue(test2_node0));
