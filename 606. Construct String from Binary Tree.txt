@@ -1,0 +1,21 @@
+TreeNode test0_node0 = new TreeNode(1);
+TreeNode test0_node1 = new TreeNode(2);
+TreeNode test0_node2 = new TreeNode(3);
+TreeNode test0_node3 = new TreeNode(4);
+
+test0_node0.left = test0_node1;
+test0_node0.right = test0_node2;
+test0_node1.left = test0_node3;
+
+Assert.AreEqual("1(2(4))(3)", new ConstructStringFromBinaryTree().Tree2str(test0_node0));
+
+TreeNode test1_node0 = new TreeNode(1);
+TreeNode test1_node1 = new TreeNode(2);
+TreeNode test1_node2 = new TreeNode(3);
+TreeNode test1_node3 = new TreeNode(4);
+
+test1_node0.left = test1_node1;
+test1_node0.right = test1_node2;
+test1_node1.right = test1_node3;
+
+Assert.AreEqual("1(2()(4))(3)", new ConstructStringFromBinaryTree().Tree2str(test1_node0));
