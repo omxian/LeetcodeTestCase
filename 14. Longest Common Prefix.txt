@@ -1,0 +1,5 @@
+Assert.AreEqual("abcv", new LongestCommonPrefix().LongestCommonPrefixSolution(new string[] { "abcv", "abcvs", "abcvse" }));
+Assert.AreEqual("", new LongestCommonPrefix().LongestCommonPrefixSolution(new string[] { "", "", "" }));
+Assert.AreEqual("", new LongestCommonPrefix().LongestCommonPrefixSolution(new string[] {}));
+Assert.AreEqual("z", new LongestCommonPrefix().LongestCommonPrefixSolution(new string[] { "z", "z", "z" }));
+Assert.AreEqual("d", new LongestCommonPrefix().LongestCommonPrefixSolution(new string[] { "d1", "d2", "d3" }));
