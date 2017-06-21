@@ -1,0 +1,21 @@
+ListNode test0_node0 = new ListNode(1);
+ListNode test0_node1 = new ListNode(1);
+ListNode test0_node2 = new ListNode(2);
+ListNode test0_node3 = new ListNode(3);
+ListNode test0_node4 = new ListNode(4);
+
+test0_node0.next = test0_node1;
+test0_node1.next = test0_node2;
+test0_node2.next = test0_node3;
+test0_node3.next = test0_node4;
+
+ListNode test0_node5 = new ListNode(1);
+ListNode test0_node6 = new ListNode(1);
+ListNode test0_node7 = new ListNode(1);
+
+test0_node5.next = test0_node6;
+test0_node6.next = test0_node7;
+test0_node7.next = test0_node2;
+
+Assert.AreEqual(test0_node2, new IntersectionOfTwoLinkedLists().GetIntersectionNode(test0_node0, test0_node5));
+Assert.AreEqual(null, new IntersectionOfTwoLinkedLists().GetIntersectionNode(null, null));
