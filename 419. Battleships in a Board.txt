@@ -1,0 +1,5 @@
+Assert.AreEqual(2, new BattleshipsInABoard().CountBattleships(new char[,] {
+                {'X','.','.','X'},
+                {'.','.','.','X'},
+                {'.','.','.','X'},
+            }));
