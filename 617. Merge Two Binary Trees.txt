@@ -1,0 +1,41 @@
+TreeNode test0_tree0 = new TreeNode(1);
+TreeNode test0_tree1 = new TreeNode(3);
+TreeNode test0_tree2 = new TreeNode(2);
+TreeNode test0_tree3 = new TreeNode(5);
+
+test0_tree0.left = test0_tree1;
+test0_tree0.right = test0_tree2;
+test0_tree1.left = test0_tree3;
+
+TreeNode test1_tree0 = new TreeNode(2);
+TreeNode test1_tree1 = new TreeNode(1);
+TreeNode test1_tree2 = new TreeNode(3);
+TreeNode test1_tree3 = new TreeNode(4);
+TreeNode test1_tree4 = new TreeNode(7);
+
+test1_tree0.left = test1_tree1;
+test1_tree0.right = test1_tree2;
+test1_tree1.right = test1_tree3;
+test1_tree2.right = test1_tree4;
+
+TreeNode test0 = new MergeTwoBinaryTrees().MergeTrees(test0_tree0, test1_tree0);
+Assert.AreEqual(3, test0.val);
+Assert.AreEqual(4, test0.left.val);
+Assert.AreEqual(5, test0.right.val);
+Assert.AreEqual(5, test0.left.left.val);
+Assert.AreEqual(4, test0.left.right.val);
+Assert.AreEqual(7, test0.right.right.val);
+
+TreeNode test3_tree0 = new TreeNode(1);
+TreeNode test3_tree1 = new TreeNode(3);
+TreeNode test3_tree2 = new TreeNode(2);
+TreeNode test3_tree3 = new TreeNode(5);
+
+test3_tree0.left = test0_tree1;
+test3_tree0.right = test0_tree2;
+test3_tree1.left = test0_tree3;
+TreeNode test1 = new MergeTwoBinaryTrees().MergeTrees(test3_tree0, null);
+Assert.AreEqual(1, test1.val);
+Assert.AreEqual(3, test1.left.val);
+Assert.AreEqual(2, test1.right.val);
+Assert.AreEqual(5, test1.left.left.val);

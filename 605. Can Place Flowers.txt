@@ -1,0 +1,7 @@
+Assert.IsFalse(new CanPlaceFlowers().CanPlaceFlowersSolution(new int[] { 1, 0, 0, 0, 1 }, 2));
+Assert.IsTrue(new CanPlaceFlowers().CanPlaceFlowersSolution(new int[] { 1, 0, 0, 0, 1 }, 1));
+Assert.IsTrue(new CanPlaceFlowers().CanPlaceFlowersSolution(new int[] { 1 }, 0));
+Assert.IsTrue(new CanPlaceFlowers().CanPlaceFlowersSolution(new int[] {  }, 0));
+
+//没有考虑到种上去的后果
+Assert.IsFalse(new CanPlaceFlowers().CanPlaceFlowersSolution(new int[] { 1, 0, 0, 0,0,1 }, 2));
