@@ -1,0 +1,3 @@
+EncodeAndDecodeTinyURL tinyURL = new EncodeAndDecodeTinyURL();
+string target = "sadawfwgvzx";
+Assert.AreEqual(target,tinyURL.decode(tinyURL.encode(target)));
