@@ -1,0 +1,12 @@
+List<List<int>> target0 = new List<List<int>>();
+target0.Add(new List<int> { 1, 2, 3 });
+target0.Add(new List<int> { 4, 5 });
+target0.Add(new List<int> { 1, 2, 3 });
+
+Assert.AreEqual(4, new MaximumDistanceInArrays().MaxDistance(target0.ToArray()));
+
+List<List<int>> target1 = new List<List<int>>();
+target1.Add(new List<int> { 1, 4 });
+target1.Add(new List<int> { 0, 5 });
+
+Assert.AreEqual(4, new MaximumDistanceInArrays().MaxDistance(target1.ToArray()));
