@@ -1,0 +1,4 @@
+Assert.AreEqual("24A0-R74K", new LicenseKeyFormatting().LicenseKeyFormattingSolution("2-4A0r7-4k", 4));
+Assert.AreEqual("24-A0R-74K", new LicenseKeyFormatting().LicenseKeyFormattingSolution("2-4A0r7-4k", 3));
+Assert.AreEqual("AA-AA", new LicenseKeyFormatting().LicenseKeyFormattingSolution("--a-a-a-a--", 2));
+Assert.AreEqual("", new LicenseKeyFormatting().LicenseKeyFormattingSolution("-", 2));
