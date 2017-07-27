@@ -1,0 +1,4 @@
+Assert.AreEqual(2, new DeleteOperationForTwoStrings().MinDistance("sea", "eat"));
+Assert.AreEqual(2, new DeleteOperationForTwoStrings().MinDistance("aabcc", "abcca"));
+Assert.AreEqual(0, new DeleteOperationForTwoStrings().MinDistance("a", "a"));
+Assert.AreEqual(3, new DeleteOperationForTwoStrings().MinDistance("park", "spake"));
