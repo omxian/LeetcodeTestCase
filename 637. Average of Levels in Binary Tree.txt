@@ -1,0 +1,12 @@
+TreeNode test0_node0 = new TreeNode(3);
+TreeNode test0_node1 = new TreeNode(9);
+TreeNode test0_node2 = new TreeNode(20);
+TreeNode test0_node3 = new TreeNode(15);
+TreeNode test0_node4 = new TreeNode(7);
+
+test0_node0.left = test0_node1;
+test0_node0.right = test0_node2;
+test0_node2.left = test0_node3;
+test0_node2.right = test0_node4;
+
+Assert.IsTrue(Util.CompareList(new double[] { 3, 14.5, 11 }, new AverageOfLevelsInBinaryTree().AverageOfLevels(test0_node0)));
