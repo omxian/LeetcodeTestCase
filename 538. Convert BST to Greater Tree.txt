@@ -1,0 +1,19 @@
+TreeNode test0_0 = new TreeNode(5);
+TreeNode test0_1 = new TreeNode(2);
+TreeNode test0_2 = new TreeNode(13);
+test0_0.left = test0_1;
+test0_0.right = test0_2;
+
+Assert.AreEqual(18, new ConvertBSTToGreaterTree().ConvertBST(test0_0).val);
+Assert.AreEqual(20, new ConvertBSTToGreaterTree().ConvertBST(test0_0).left.val);
+Assert.AreEqual(13, new ConvertBSTToGreaterTree().ConvertBST(test0_0).right.val);
+
+TreeNode test1_0 = new TreeNode(2);
+TreeNode test1_1 = new TreeNode(1);
+TreeNode test1_2 = new TreeNode(3);
+test1_0.left = test1_1;
+test1_0.right = test1_2;
+
+Assert.AreEqual(5, new ConvertBSTToGreaterTree().ConvertBST(test1_0).val);
+Assert.AreEqual(6, new ConvertBSTToGreaterTree().ConvertBST(test1_0).left.val);
+Assert.AreEqual(3, new ConvertBSTToGreaterTree().ConvertBST(test1_0).right.val);
