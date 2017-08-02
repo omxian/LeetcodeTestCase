@@ -1,0 +1,1 @@
+Assert.AreEqual(12.75,new MaximumAverageSubarrayI().FindMaxAverage(new int[] {1,12,-5,-6,50,3},4));
