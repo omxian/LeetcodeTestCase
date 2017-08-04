@@ -1,0 +1,2 @@
+Assert.AreEqual(987, new LargestPalindromeProduct().LargestPalindrome(2));
+Assert.AreEqual(677, new LargestPalindromeProduct().LargestPalindrome(5));
