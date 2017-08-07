@@ -1,0 +1,13 @@
+TreeNode test0_node0 = new TreeNode(5);
+TreeNode test0_node1 = new TreeNode(3);
+TreeNode test0_node2 = new TreeNode(6);
+TreeNode test0_node3 = new TreeNode(2);
+TreeNode test0_node4 = new TreeNode(4);
+TreeNode test0_node5 = new TreeNode(7);
+
+test0_node0.left = test0_node1;
+test0_node0.right = test0_node2;
+test0_node1.left = test0_node3;
+test0_node1.right = test0_node4;
+test0_node2.right = test0_node5;
+Assert.IsTrue(new TwoSumIV_BST().FindTarget(test0_node0,9));
