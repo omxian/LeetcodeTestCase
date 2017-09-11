@@ -1,0 +1,2 @@
+Assert.IsTrue(new JudgeRouteCircle().JudgeCircle("UD"));
+Assert.IsFalse(new JudgeRouteCircle().JudgeCircle("LL"));
