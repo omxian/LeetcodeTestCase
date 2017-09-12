@@ -1,9 +1,34 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCode
 {
     public class Util
     {
+        /// <summary>
+        /// Compare TreeNode
+        /// 需要测试
+        /// </summary>
+        /// <param name="node1"></param>
+        /// <param name="node2"></param>
+        /// <returns></returns>
+        public static bool CompareTreeNode(TreeNode node1,TreeNode node2)
+        {
+            if (node1 != null && node2 != null)
+            {
+                return node1.val == node2.val && CompareTreeNode(node1.left, node2.left) && CompareTreeNode(node1.right, node2.right);
+            }
+            else if (node1 == null && node2 == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
         /// <summary>
         /// string需要另行处理
         /// string是引用型，Equals判断的是引用是否相同
@@ -92,6 +117,28 @@ namespace LeetCode
                 }
             }
             return true;
+        }
+
+        /// <summary>
+        /// 从数组中截取一部分成新的数组
+        /// </summary>
+        /// <param name="source">原数组</param>
+        /// <param name="startIndex">原数组的起始位置</param>
+        /// <param name="endIndex">原数组的截止位置</param>
+        /// <returns></returns>
+        public static T[] SplitArray<T>(T[] source, int startIndex, int endIndex)
+        {
+            try
+            {
+                T[] result = new T[endIndex - startIndex + 1];
+                for (int i = 0; i <= endIndex - startIndex; i++)
+                    result[i] = source[i + startIndex];
+                return result;
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }
