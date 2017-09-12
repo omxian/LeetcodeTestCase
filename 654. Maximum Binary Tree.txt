@@ -1,0 +1,7 @@
+TreeNode result = new MaximumBinaryTree().ConstructMaximumBinaryTree(new int[] { 3, 2, 1, 6, 0, 5 });
+Assert.AreEqual(6, result.val);
+Assert.AreEqual(3, result.left.val);
+Assert.AreEqual(2, result.left.right.val);
+Assert.AreEqual(1, result.left.right.right.val);
+Assert.AreEqual(5, result.right.val);
+Assert.AreEqual(0, result.right.left.val);
