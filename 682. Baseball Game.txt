@@ -1,0 +1,2 @@
+Assert.AreEqual(30, new BaseballGame().CalPoints(new string[] { "5", "2", "C", "D", "+" }));
+Assert.AreEqual(27, new BaseballGame().CalPoints(new string[] { "5", "-2", "4", "C", "D", "9", "+", "+" }));
