@@ -1,0 +1,4 @@
+Assert.IsTrue(new BinaryNumberWithAlternatingBits().HasAlternatingBits(5));
+Assert.IsFalse(new BinaryNumberWithAlternatingBits().HasAlternatingBits(7));
+Assert.IsFalse(new BinaryNumberWithAlternatingBits().HasAlternatingBits(11));
+Assert.IsTrue(new BinaryNumberWithAlternatingBits().HasAlternatingBits(10));
