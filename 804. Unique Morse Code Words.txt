@@ -1,0 +1,2 @@
+UniqueMorseCodeWords uniqueMorseCodeWords = new UniqueMorseCodeWords();
+Assert.AreEqual(2, uniqueMorseCodeWords.UniqueMorseRepresentations(new string[] { "gin", "zen", "gig", "msg" }));

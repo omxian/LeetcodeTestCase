@@ -1,0 +1,5 @@
+RemoveOutermostParentheses removeOutermostParentheses = new RemoveOutermostParentheses();
+Assert.AreEqual("(())", removeOutermostParentheses.RemoveOuterParentheses("((()))"));
+Assert.AreEqual("()()()", removeOutermostParentheses.RemoveOuterParentheses("(()())(())"));
+Assert.AreEqual("()()()()(())", removeOutermostParentheses.RemoveOuterParentheses("(()())(())(()(()))"));
+Assert.AreEqual("", removeOutermostParentheses.RemoveOuterParentheses("()()"));

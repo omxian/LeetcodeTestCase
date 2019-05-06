@@ -1,0 +1,20 @@
+RangeSumBST rangeSumBST = new RangeSumBST();
+TreeNode root = new TreeNode(10);
+root.right = new TreeNode(15);
+root.right.right = new TreeNode(18);
+root.left = new TreeNode(5);
+root.left.left = new TreeNode(3);
+root.left.right = new TreeNode(7);
+Assert.AreEqual(32, rangeSumBST.Solution(root, 7, 15));
+
+TreeNode root1 = new TreeNode(10);
+root1.right = new TreeNode(15);
+root1.right.right = new TreeNode(18);
+root1.right.left = new TreeNode(13);
+
+root1.left = new TreeNode(5);
+root1.left.left = new TreeNode(3);
+root1.left.left.left = new TreeNode(1);
+root1.left.right = new TreeNode(7);
+root1.left.right.left = new TreeNode(6);
+Assert.AreEqual(23, rangeSumBST.Solution(root1, 6, 10));

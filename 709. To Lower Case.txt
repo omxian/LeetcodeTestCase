@@ -1,0 +1,4 @@
+ToLowerCase toLowerCase = new ToLowerCase();
+Assert.AreEqual("hello",toLowerCase.Solution("Hello"));
+Assert.AreEqual("here", toLowerCase.Solution("here"));
+Assert.AreEqual("lovely", toLowerCase.Solution("LOVELY"));
