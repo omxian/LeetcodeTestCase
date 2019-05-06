@@ -1,0 +1,3 @@
+var jewelsAndStones = new JewelsAndStones();
+Assert.AreEqual(3, jewelsAndStones.Count("aA", "aAAbbbb"));
+Assert.AreEqual(0, jewelsAndStones.Count("z", "ZZ"));
