@@ -1,0 +1,4 @@
+RepeatedElementSize2NArray nArray = new RepeatedElementSize2NArray();
+Assert.AreEqual(3,nArray.RepeatedNTimes(new int[] { 1,2,3,3}));
+Assert.AreEqual(2,nArray.RepeatedNTimes(new int[] { 2, 1, 2, 5, 3, 2 }));
+Assert.AreEqual(5,nArray.RepeatedNTimes(new int[] { 5, 1, 5, 2, 5, 3, 5, 4 }));

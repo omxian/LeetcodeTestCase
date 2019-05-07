@@ -1,0 +1,3 @@
+SquaresSortedArray squaresSortedArray = new SquaresSortedArray();
+Assert.IsTrue(Util.CompareList(new int[] { 0, 1, 9, 16, 100 }, squaresSortedArray.SortedSquares(new int[] { -4, -1, 0, 3, 10 })));
+Assert.IsTrue(Util.CompareList(new int[] { 4, 9, 9, 49, 121 }, squaresSortedArray.SortedSquares(new int[] { -7, -3, 2, 3, 11 })));
