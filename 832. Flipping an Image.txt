@@ -1,0 +1,29 @@
+int[][] test = new int[][] {
+	new int[] { 1, 1, 0 },
+	new int[] { 1, 0, 1 },
+	new int[] { 0, 0, 0 }
+};
+
+FlippingAnImage flippingAnImage = new FlippingAnImage();
+
+int[][] result = flippingAnImage.FlipAndInvertImage(new int[][] {
+	new int[] { 1, 1, 0 },
+	new int[] { 1, 0, 1 },
+	new int[] { 0, 0, 0 }
+});
+
+Assert.IsTrue(Util.CompareList(new int[] { 1, 0, 0 }, result[0]));
+Assert.IsTrue(Util.CompareList(new int[] { 0, 1, 0 }, result[1]));
+Assert.IsTrue(Util.CompareList(new int[] { 1, 1, 1 }, result[2]));
+
+result = flippingAnImage.FlipAndInvertImage(new int[][] {
+	new int[] { 1, 1, 0, 0 },
+	new int[] { 1, 0, 0, 1 },
+	new int[] { 0, 1, 1, 1 },
+	new int[] { 1, 0, 1, 0 }
+});
+
+Assert.IsTrue(Util.CompareList(new int[] { 1, 1, 0, 0 }, result[0]));
+Assert.IsTrue(Util.CompareList(new int[] { 0, 1, 1, 0 }, result[1]));
+Assert.IsTrue(Util.CompareList(new int[] { 0, 0, 0, 1 }, result[2]));
+Assert.IsTrue(Util.CompareList(new int[] { 1, 0, 1, 0 }, result[3]));
