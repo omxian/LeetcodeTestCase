@@ -1,0 +1,21 @@
+"""
+        >>> node1_1 = ListNode(2)
+        >>> node1_2 = ListNode(4)
+        >>> node1_3 = ListNode(3)
+        >>> node1_1.next = node1_2
+        >>> node1_2.next = node1_3
+        >>> node2_1 = ListNode(5)
+        >>> node2_2 = ListNode(6)
+        >>> node2_3 = ListNode(6)
+        >>> node2_1.next = node2_2
+        >>> node2_2.next = node2_3
+        >>> result = Solution().addTwoNumbers(node1_1,node2_1)
+        >>> result.val
+        7
+        >>> result.next.val
+        0
+        >>> result.next.next.val
+        0
+        >>> result.next.next.next.val
+        1
+"""
