@@ -1,2 +1,2 @@
 # LeetcodeTestCase
-Some Leetcode C#(VS2015) Test Case
+Some Leetcode C#(VS2015) and Python Testcase
