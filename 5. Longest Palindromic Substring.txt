@@ -1,0 +1,6 @@
+    """
+        >>> Solution().longestPalindrome("babad")
+        'bab'
+        >>> Solution().longestPalindrome("cbbd")
+        'bb'
+    """
