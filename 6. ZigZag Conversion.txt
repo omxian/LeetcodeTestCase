@@ -1,0 +1,6 @@
+"""
+	>>> Solution().convert("PAYPALISHIRING",3)
+	'PAHNAPLSIIGYIR'
+	>>> Solution().convert("PAYPALISHIRING",4)
+	'PINALSIGYAHRPI'
+"""
