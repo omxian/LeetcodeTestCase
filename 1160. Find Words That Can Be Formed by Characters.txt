@@ -1,0 +1,6 @@
+    """
+        >>> Solution().countCharacters(["cat","bt","hat","tree"],"atach")
+        6
+        >>> Solution().countCharacters(["hello","world","leetcode"],"welldonehoneyr")
+        10
+    """
