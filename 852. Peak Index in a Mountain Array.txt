@@ -1,0 +1,10 @@
+    """
+        >>> Solution().peakIndexInMountainArray([3, 2, 4])
+        2
+        >>> Solution().peakIndexInMountainArray([2, 7, 11, 15])
+        3
+        >>> Solution().peakIndexInMountainArray([0,1,0])
+        1
+        >>> Solution().peakIndexInMountainArray([0,2,1,0])
+        1
+    """
