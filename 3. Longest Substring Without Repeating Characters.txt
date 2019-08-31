@@ -1,0 +1,10 @@
+"""
+        >>> Solution().lengthOfLongestSubstring("abcabcbb") #abc
+        3
+        >>> Solution().lengthOfLongestSubstring("bbbbb") #b
+        1
+        >>> Solution().lengthOfLongestSubstring("pwwkew") #wke
+        3
+        >>> Solution().lengthOfLongestSubstring("")
+        0
+"""
