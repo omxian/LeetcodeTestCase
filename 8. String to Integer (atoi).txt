@@ -1,0 +1,20 @@
+"""
+	>>> Solution().myAtoi("42")
+	42
+	>>> Solution().myAtoi("   -42")
+	-42
+	>>> Solution().myAtoi("4193 with words")
+	4193
+	>>> Solution().myAtoi("words and 987")
+	0
+	>>> Solution().myAtoi("-91283472332")
+	-2147483648
+	>>> Solution().myAtoi("91283472332")
+	2147483647
+	>>> Solution().myAtoi("-")
+	0
+	>>> Solution().myAtoi("+1")
+	1
+	>>> Solution().myAtoi("+")
+	0
+"""
