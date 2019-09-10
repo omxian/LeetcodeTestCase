@@ -1,0 +1,10 @@
+    """
+        >>> Solution().judgeSquareSum(5)
+        True
+        >>> Solution().judgeSquareSum(3)
+        False
+        >>> Solution().judgeSquareSum(0)
+        True
+        >>> Solution().judgeSquareSum(2)
+        True
+    """
