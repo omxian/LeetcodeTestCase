@@ -1,0 +1,4 @@
+"""
+        >>> Solution().getImportance([Employee(1, 5, [2, 3]) , Employee(2, 3, []), Employee(3, 3, [])], 1)
+        11
+"""

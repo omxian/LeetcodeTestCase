@@ -1,0 +1,8 @@
+    """
+        >>> Solution().fib(2)
+        1
+        >>> Solution().fib(3)
+        2
+        >>> Solution().fib(4)
+        3
+    """
