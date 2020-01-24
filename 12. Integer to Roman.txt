@@ -1,0 +1,5 @@
+Assert.IsTrue(new Roman2Integer().IntToRoman(3) == "III");
+Assert.IsTrue(new Roman2Integer().IntToRoman(4) == "IV");
+Assert.IsTrue(new Roman2Integer().IntToRoman(9) == "IX");
+Assert.IsTrue(new Roman2Integer().IntToRoman(58) == "LVIII");
+Assert.IsTrue(new Roman2Integer().IntToRoman(1994) == "MCMXCIV");

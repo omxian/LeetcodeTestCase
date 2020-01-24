@@ -1,0 +1,3 @@
+self.assertEquals(
+            LetterCombinationsOfPhoneNumber.Solution().letterCombinations("23"),
+            ['ad', 'bd', 'cd', 'ae', 'be', 'ce', 'af', 'bf', 'cf'])
