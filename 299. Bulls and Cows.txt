@@ -1,0 +1,10 @@
+"""
+        >>> Solution().getHint("1807","7810")
+        '1A3B'
+        >>> Solution().getHint("1123","0111")
+        '1A1B'
+        >>> Solution().getHint("11","11")
+        '2A0B'
+        >>> Solution().getHint("11","10")
+        '1A0B'
+"""
