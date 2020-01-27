@@ -1,0 +1,4 @@
+self.assertEquals(SubtractTheProductAndSumOfDigitsOfAnInteger.Solution().subtractProductAndSum(234),
+            15)
+self.assertEquals(SubtractTheProductAndSumOfDigitsOfAnInteger.Solution().subtractProductAndSum(4421),
+            21)
