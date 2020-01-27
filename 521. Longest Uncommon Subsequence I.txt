@@ -1,0 +1,4 @@
+"""
+        >>> Solution().findLUSlength("aba", "cdc")
+        3
+"""

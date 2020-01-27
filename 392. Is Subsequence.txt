@@ -1,8 +1,6 @@
     """
-        >>> Solution().diStringMatch("IDID")
-        [0, 4, 1, 3, 2]
-        >>> Solution().diStringMatch("III")
-        [0, 1, 2, 3]
-        >>> Solution().diStringMatch("DDI")
-        [3, 2, 0, 1]
+        >>> Solution().isSubsequence("abc","ahbgdc")
+        true
+        >>> Solution().isSubsequence("axc","ahbgdc")
+        false
     """
