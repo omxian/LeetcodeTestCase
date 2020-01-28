@@ -1,0 +1,26 @@
+"""
+        注意如果四个象限值相同应该合并为一个
+        >>> node1_topleft = Node(True,True,None,None,None,None)
+        >>> node1_topright = Node(True,True,None,None,None,None)
+        >>> node1_bottomleft = Node(False,True,None,None,None,None)
+        >>> node1_bottomright = Node(False,True,None,None,None,None)
+        >>> node1 = Node(None, False, node1_topleft,node1_topright,node1_bottomleft,node1_bottomright)
+        >>> node2_topleft = Node(True,True,None,None,None,None)
+        >>> node2_topright_topleft = Node(False,True,None,None,None,None)
+        >>> node2_topright_topright = Node(False,True,None,None,None,None)
+        >>> node2_topright_bottomleft = Node(True,True,None,None,None,None)
+        >>> node2_topright_bottomright = Node(True,True,None,None,None,None)
+        >>> node2_topright = Node(True,False,node2_topright_topleft,node2_topright_topright,node2_topright_bottomleft,node2_topright_bottomright)
+        >>> node2_bottomleft = Node(True,True,None,None,None,None)
+        >>> node2_bottomright = Node(False,True,None,None,None,None)
+        >>> node2 = Node(None, False, node2_topleft,node2_topright,node2_bottomleft,node2_bottomright)
+        >>> result = Solution().intersect(node1,node2)
+        >>> result.topLeft.val
+        True
+        >>> result.topRight.val
+        True
+        >>> result.bottomLeft.val
+        True
+        >>> result.bottomRight.val
+        False
+    """
