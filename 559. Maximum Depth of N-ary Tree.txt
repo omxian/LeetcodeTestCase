@@ -1,0 +1,10 @@
+"""
+        >>> node1 = Node(1)
+        >>> node2 = Node(3)
+        >>> node2.children = [Node(5),Node(6)]
+        >>> node1.children = [node2,Node(2),Node(4)]
+        >>> Solution().maxDepth(node1)
+        3
+        >>> Solution().maxDepth(Node(44))
+        1
+"""

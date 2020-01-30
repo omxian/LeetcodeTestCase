@@ -1,0 +1,8 @@
+"""
+        >>> node1 = Node(1)
+        >>> node2 = Node(3)
+        >>> node2.children = [Node(5),Node(6)]
+        >>> node1.children = [node2,Node(2),Node(4)]
+        >>> Solution().postorder(node1)
+        [5, 6, 3, 2, 4, 1]
+"""
