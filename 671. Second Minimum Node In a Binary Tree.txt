@@ -1,0 +1,15 @@
+"""
+        >>> root = TreeNode(2)
+        >>> root.left = TreeNode(2)
+        >>> root_right = TreeNode(5)
+        >>> root_right.left = TreeNode(5)
+        >>> root_right.right = TreeNode(7)
+        >>> root.right = root_right
+        >>> Solution().findSecondMinimumValue(root)
+        5
+        >>> root = TreeNode(2)
+        >>> root.left = TreeNode(2)
+        >>> root.right = TreeNode(2)
+        >>> Solution().findSecondMinimumValue(root)
+        -1
+"""

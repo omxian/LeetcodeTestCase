@@ -1,0 +1,12 @@
+    """
+        >>> Solution().repeatedStringMatch("abcd","cdabcdab")
+        3
+        >>> Solution().repeatedStringMatch("abcd","ggg")
+        -1
+        >>> Solution().repeatedStringMatch("aa","a")
+        1
+        >>> Solution().repeatedStringMatch("aaaaaaaaaaaaaaaaaaaaaab","ba")
+        2
+        >>> Solution().repeatedStringMatch("abcbc","cabcbca")
+        3
+    """

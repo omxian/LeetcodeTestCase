@@ -1,0 +1,12 @@
+    """
+        >>> Solution().validPalindrome("aba")
+        True
+        >>> Solution().validPalindrome("abca")
+        True
+        >>> Solution().validPalindrome("abb")
+        True
+        >>> Solution().validPalindrome("abbax")
+        True
+        >>> Solution().validPalindrome("asdg")
+        False
+    """
