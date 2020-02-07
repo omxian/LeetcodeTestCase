@@ -1,0 +1,32 @@
+"""
+        >>> root = TreeNode(5)
+        >>> left = TreeNode(4)
+        >>> left.left = TreeNode(1)
+        >>> left.right = TreeNode(1)
+        >>> right = TreeNode(5)
+        >>> right.right = TreeNode(5)
+        >>> root.left = left
+        >>> root.right = right
+        >>> Solution().longestUnivaluePath(root)
+        2
+        >>> root = TreeNode(1)
+        >>> left = TreeNode(4)
+        >>> left.left = TreeNode(4)
+        >>> left.right = TreeNode(4)
+        >>> right = TreeNode(5)
+        >>> right.right = TreeNode(5)
+        >>> root.left = left
+        >>> root.right = right
+        >>> Solution().longestUnivaluePath(root)
+        2
+        >>> root = TreeNode(4)
+        >>> left = TreeNode(4)
+        >>> left.left = TreeNode(4)
+        >>> left.right = TreeNode(4)
+        >>> right = TreeNode(4)
+        >>> right.right = TreeNode(4)
+        >>> root.left = left
+        >>> root.right = right
+        >>> Solution().longestUnivaluePath(root)
+        4
+"""

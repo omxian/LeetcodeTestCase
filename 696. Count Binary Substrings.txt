@@ -1,0 +1,6 @@
+    """
+        >>> Solution().countBinarySubstrings("00110011")
+        6
+        >>> Solution().countBinarySubstrings("10101")
+        4
+    """
