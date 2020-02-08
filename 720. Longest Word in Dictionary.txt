@@ -1,0 +1,6 @@
+    """
+        >>> Solution().longestWord(["w","wo","wor","worl", "world"])
+        'world'
+        >>> Solution().longestWord(["a", "banana", "app", "appl", "ap", "apply", "apple"])
+        'apple'
+    """
