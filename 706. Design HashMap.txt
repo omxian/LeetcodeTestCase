@@ -1,0 +1,15 @@
+    """
+        >>> hashMap = MyHashMap()
+        >>> hashMap.put(1,1)
+        >>> hashMap.put(2,2)
+        >>> hashMap.get(1)
+        1
+        >>> hashMap.get(3)
+        -1
+        >>> hashMap.put(2,1)
+        >>> hashMap.get(2)
+        1
+        >>> hashMap.remove(2)
+        >>> hashMap.get(2)
+        -1
+    """
