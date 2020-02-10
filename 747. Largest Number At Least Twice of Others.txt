@@ -1,0 +1,8 @@
+    """
+        >>> Solution().dominantIndex([3, 6, 1, 0])
+        1
+        >>> Solution().dominantIndex([1,2,3,4])
+        -1
+        >>> Solution().dominantIndex([1])
+        0
+    """

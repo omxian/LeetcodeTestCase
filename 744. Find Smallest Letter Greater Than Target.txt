@@ -1,0 +1,16 @@
+"""
+        >>> Solution().nextGreatestLetter(['a', 'b'],'z')
+        'a'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"a")
+        'c'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"c")
+        'f'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"d")
+        'f'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"g")
+        'j'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"j")
+        'c'
+        >>> Solution().nextGreatestLetter(["c", "f", "j"],"k")
+        'c'
+    """
