@@ -1,0 +1,14 @@
+    """
+        >>> Solution().pivotIndex([1, 7, 3, 6, 5, 6])
+        3
+        >>> Solution().pivotIndex([1, 2, 3])
+        -1
+        >>> Solution().pivotIndex([])
+        -1
+        >>> Solution().pivotIndex([-1,-1,-1,-1,-1,0])
+        2
+        >>> Solution().pivotIndex([-1,-1,-1,-1,0,1])
+        1
+        >>> Solution().pivotIndex([-1,-1,-1,0,1,1])
+        0
+    """
