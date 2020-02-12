@@ -1,0 +1,6 @@
+    """
+        >>> Solution().countPrimeSetBits(6,10)
+        4
+        >>> Solution().countPrimeSetBits(10,15)
+        5
+    """

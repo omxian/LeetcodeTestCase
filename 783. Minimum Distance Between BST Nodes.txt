@@ -1,0 +1,10 @@
+    """
+        >>> root = TreeNode(4)
+        >>> root.right =TreeNode(6)
+        >>> left = TreeNode(2)
+        >>> left.left = TreeNode(1)
+        >>> left.right = TreeNode(3)
+        >>> root.left = left
+        >>> Solution().minDiffInBST(root)
+        1
+    """
