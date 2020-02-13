@@ -1,0 +1,4 @@
+    """
+        >>> Solution().mostCommonWord("a, a, a, a, b,b,b,c, c",["a"])
+        'b'
+    """
