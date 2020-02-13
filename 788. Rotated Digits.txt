@@ -1,0 +1,4 @@
+    """
+        >>> Solution().rotatedDigits(10)
+        4
+    """
