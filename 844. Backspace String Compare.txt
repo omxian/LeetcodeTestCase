@@ -1,0 +1,10 @@
+    """
+        >>> Solution().backspaceCompare("ab#c","ad#c")
+        True
+        >>> Solution().backspaceCompare("ab##","c#d#")
+        True
+        >>> Solution().backspaceCompare("a##c","#a#c")
+        True
+        >>> Solution().backspaceCompare("a#c","b")
+        False
+    """

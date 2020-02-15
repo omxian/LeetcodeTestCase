@@ -1,0 +1,7 @@
+
+    """
+        >>> Solution().maxDistToClosest([1,0,0,0,1,0,1])
+        2
+        >>> Solution().maxDistToClosest([1,0,0,0])
+        3
+    """

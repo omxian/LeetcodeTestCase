@@ -1,0 +1,10 @@
+    """
+        >>> Solution().lemonadeChange([5,5,5,10,20])
+        True
+        >>> Solution().lemonadeChange([5,5,10])
+        True
+        >>> Solution().lemonadeChange([10,10])
+        False
+        >>> Solution().lemonadeChange([5,5,10,10,20])
+        False
+    """
