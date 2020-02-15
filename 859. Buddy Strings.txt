@@ -1,0 +1,18 @@
+    """
+        >>> Solution().buddyStrings("ab","ba")
+        True
+        >>> Solution().buddyStrings("ab","ab")
+        False
+        >>> Solution().buddyStrings("aa","aa")
+        True
+        >>> Solution().buddyStrings("aaaaaaabc","aaaaaaacb")
+        True
+        >>> Solution().buddyStrings("","aa")
+        False
+        >>> Solution().buddyStrings("abcaa","abcbb")
+        False
+        >>> Solution().buddyStrings("abcaa","abcbb")
+        False
+        >>> Solution().buddyStrings("","")
+        False
+    """
