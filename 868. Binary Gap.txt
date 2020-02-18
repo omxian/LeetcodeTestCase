@@ -1,0 +1,10 @@
+    """
+        >>> Solution().binaryGap(22)
+        2
+        >>> Solution().binaryGap(5)
+        2
+        >>> Solution().binaryGap(6)
+        1
+        >>> Solution().binaryGap(8)
+        0
+    """
