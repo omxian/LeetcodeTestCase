@@ -1,0 +1,31 @@
+"""
+
+        >>> tree1 = TreeNode(3)
+        >>> tree1_left = TreeNode(5)
+        >>> tree1_right = TreeNode(1)
+        >>> tree1.right = tree1_right
+        >>> tree1.left = tree1_left
+        >>> tree1_left.left = TreeNode(6)
+        >>> tree1_right.left = TreeNode(9)
+        >>> tree1_right.right = TreeNode(8)
+        >>> tree1_left_right = TreeNode(2)
+        >>> tree1_left_right.right = TreeNode(4)
+        >>> tree1_left_right.left = TreeNode(7)
+        >>> tree1_left.right = tree1_left_right
+        >>> tree2 = TreeNode(5)
+        >>> tree2_left = TreeNode(3)
+        >>> tree2_right = TreeNode(2)
+        >>> tree2.right = tree2_right
+        >>> tree2.left = tree2_left
+        >>> tree2_left.left = TreeNode(6)
+        >>> tree2_right.left = TreeNode(9)
+        >>> tree2_right.right = TreeNode(8)
+        >>> tree2_left_right = TreeNode(2)
+        >>> tree2_left_right.right = TreeNode(4)
+        >>> tree2_left_right.left = TreeNode(7)
+        >>> tree2_left.right = tree2_left_right
+        >>> Solution().leafSimilar(tree1,tree2)
+        True
+        >>> Solution().leafSimilar(tree1, TreeNode(2))
+        False
+    """

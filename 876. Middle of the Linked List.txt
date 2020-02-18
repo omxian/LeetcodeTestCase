@@ -1,0 +1,26 @@
+"""
+        >>> l1 = ListNode(1)
+        >>> l2 = ListNode(2)
+        >>> l3 = ListNode(3)
+        >>> l4 = ListNode(4)
+        >>> l5 = ListNode(5)
+        >>> l1.next = l2
+        >>> l2.next = l3
+        >>> l3.next = l4
+        >>> l4.next = l5
+        >>> Solution().middleNode(l1).val
+        3
+        >>> l1 = ListNode(1)
+        >>> l2 = ListNode(2)
+        >>> l3 = ListNode(3)
+        >>> l4 = ListNode(4)
+        >>> l5 = ListNode(5)
+        >>> l6 = ListNode(6)
+        >>> l1.next = l2
+        >>> l2.next = l3
+        >>> l3.next = l4
+        >>> l4.next = l5
+        >>> l5.next = l6
+        >>> Solution().middleNode(l1).val
+        4
+    """
