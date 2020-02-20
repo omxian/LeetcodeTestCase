@@ -1,0 +1,10 @@
+"""
+        >>> Solution().minDeletionSize(["cba","daf","ghi"])
+        1
+        >>> Solution().minDeletionSize(["a","b"])
+        0
+        >>> Solution().minDeletionSize(["zyx","wvu","tsr"])
+        3
+        >>> Solution().minDeletionSize(["rrjk","furt","guzm"])
+        2
+    """

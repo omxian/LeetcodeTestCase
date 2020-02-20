@@ -1,0 +1,8 @@
+    """
+        >>> Solution().bitwiseComplement(5)
+        2
+        >>> Solution().bitwiseComplement(7)
+        0
+        >>> Solution().bitwiseComplement(10)
+        5
+    """

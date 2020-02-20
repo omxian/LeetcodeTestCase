@@ -1,0 +1,6 @@
+    """
+        >>> Solution().commonChars(["bella","label","roller"])
+        ['e', 'l', 'l']
+        >>> Solution().commonChars(["cool","lock","cook"])
+        ['c', 'o']
+    """
