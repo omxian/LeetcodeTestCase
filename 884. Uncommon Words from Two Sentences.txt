@@ -1,0 +1,6 @@
+    """
+        >>> Solution().uncommonFromSentences("this apple is sweet",  "this apple is sour")
+        ['sweet', 'sour']
+        >>> Solution().uncommonFromSentences("apple apple", "banana")
+        ['banana']
+    """

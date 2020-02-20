@@ -1,0 +1,7 @@
+    """
+        >>> Solution().numPairsDivisibleBy60([30,20,150,100,40])
+        3
+        >>> Solution().numPairsDivisibleBy60([60,60,60])
+        3
+    """
+数据量很大，注意TLE

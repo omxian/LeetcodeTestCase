@@ -1,0 +1,8 @@
+    """
+        >>> Solution().largestSumAfterKNegations([4,2,3],1)
+        5
+        >>> Solution().largestSumAfterKNegations([3,-1,0,2],3)
+        6
+        >>> Solution().largestSumAfterKNegations([2,-3,-1,5,-4], 2)
+        13
+    """

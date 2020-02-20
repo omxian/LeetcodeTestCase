@@ -1,0 +1,12 @@
+    """
+        >>> Solution().projectionArea([[2]])
+        5
+        >>> Solution().projectionArea([[1,2],[3,4]])
+        17
+        >>> Solution().projectionArea([[1,0],[0,2]])
+        8
+        >>> Solution().projectionArea([[1,1,1],[1,0,1],[1,1,1]])
+        14
+        >>> Solution().projectionArea([[2,2,2],[2,1,2],[2,2,2]])
+        21
+    """
