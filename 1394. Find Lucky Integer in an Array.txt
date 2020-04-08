@@ -1,0 +1,8 @@
+    """
+        >>> Solution().findLucky([2,2,3,4])
+        2
+        >>> Solution().findLucky([1,2,2,3,3,3])
+        3
+        >>> Solution().findLucky([2,2,2,3,3])
+        -1
+    """
