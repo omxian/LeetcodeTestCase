@@ -1,0 +1,12 @@
+"""
+        >>> Solution().sortString("aaaabbbbcccc")
+        'abccbaabccba'
+        >>> Solution().sortString("rat")
+        'art'
+        >>> Solution().sortString("leetcode")
+        'cdelotee'
+        >>> Solution().sortString("ggggggg")
+        'ggggggg'
+        >>> Solution().sortString("spo")
+        'ops'
+    """

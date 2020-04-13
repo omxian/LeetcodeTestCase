@@ -1,0 +1,10 @@
+"""
+        >>> Solution().countLargestGroup(n = 13)
+        4
+        >>> Solution().countLargestGroup(n = 2)
+        2
+        >>> Solution().countLargestGroup(n = 15)
+        6
+        >>> Solution().countLargestGroup(n = 24)
+        5
+    """

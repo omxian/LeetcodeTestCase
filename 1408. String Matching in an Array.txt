@@ -1,0 +1,8 @@
+"""
+        >>> Solution().stringMatching(["mass","as","hero","superhero"])
+        ['as', 'hero']
+        >>> Solution().stringMatching(["leetcode","et","code"])
+        ['et', 'code']
+        >>> Solution().stringMatching(["blue","green","bu"])
+        []
+    """
