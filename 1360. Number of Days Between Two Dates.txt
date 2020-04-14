@@ -1,0 +1,6 @@
+"""
+        >>> Solution().daysBetweenDates(date1 = "2019-06-29", date2 = "2019-06-30")
+        1
+        >>> Solution().daysBetweenDates(date1 = "2020-01-15", date2 = "2019-12-31")
+        15
+    """
