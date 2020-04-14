@@ -1,0 +1,8 @@
+    """
+        >>> Solution().generateTheString(n = 4)
+        'aaab'
+        >>> Solution().generateTheString(n = 2)
+        'ab'
+        >>> Solution().generateTheString(n = 7)
+        'aaaaaaa'
+    """
