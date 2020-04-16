@@ -1,0 +1,10 @@
+"""
+        >>> Solution().countNegatives(grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]])
+        8
+        >>> Solution().countNegatives(grid = [[3,2],[1,0]])
+        0
+        >>> Solution().countNegatives(grid = [[1,-1],[-1,-1]])
+        3
+        >>> Solution().countNegatives(grid = [[-1]])
+        1
+    """

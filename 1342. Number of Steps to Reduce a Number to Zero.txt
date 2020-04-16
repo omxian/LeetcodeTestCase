@@ -1,0 +1,6 @@
+"""
+        >>> Solution().numberOfSteps(14)
+        6
+        >>> Solution().numberOfSteps(8)
+        4
+    """

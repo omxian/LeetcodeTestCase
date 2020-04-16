@@ -1,0 +1,8 @@
+"""
+        >>> Solution().maximum69Number(9669)
+        9969
+        >>> Solution().maximum69Number(9996)
+        9999
+        >>> Solution().maximum69Number(9999)
+        9999
+    """

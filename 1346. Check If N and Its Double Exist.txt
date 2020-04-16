@@ -1,0 +1,10 @@
+"""
+        >>> Solution().checkIfExist(arr = [10,2,5,3])
+        True
+        >>> Solution().checkIfExist([7,1,14,11])
+        True
+        >>> Solution().checkIfExist([3,1,7,11])
+        False
+        >>> Solution().checkIfExist([-2,0,10,-19,4,6,-8])
+        False
+    """

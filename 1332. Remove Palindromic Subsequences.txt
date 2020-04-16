@@ -1,0 +1,12 @@
+"""
+        >>> Solution().removePalindromeSub("ababa")
+        1
+        >>> Solution().removePalindromeSub("abb")
+        2
+        >>> Solution().removePalindromeSub("baabb")
+        2
+        >>> Solution().removePalindromeSub("")
+        0
+        >>> Solution().removePalindromeSub("bbaabaaa")
+        2
+    """
