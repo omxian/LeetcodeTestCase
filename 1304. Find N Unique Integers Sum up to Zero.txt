@@ -1,0 +1,10 @@
+"""
+        >>> Solution().sumZero(5)
+        [-2, -1, 0, 1, 2]
+        >>> Solution().sumZero(3)
+        [-1, 0, 1]
+        >>> Solution().sumZero(1)
+        [0]
+        >>> Solution().sumZero(4)
+        [-2, -1, 1, 2]
+    """

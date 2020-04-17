@@ -1,0 +1,8 @@
+"""
+        >>> Solution().freqAlphabets("10#11#12")
+        'jkab'
+        >>> Solution().freqAlphabets("1326#")
+        'acz'
+        >>> Solution().freqAlphabets("25#")
+        'y'
+    """
