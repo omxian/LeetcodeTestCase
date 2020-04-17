@@ -1,0 +1,10 @@
+"""
+        >>> Solution().getNoZeroIntegers(2)
+        [1, 1]
+        >>> Solution().getNoZeroIntegers(11)
+        [2, 9]
+        >>> Solution().getNoZeroIntegers(10000)
+        [1, 9999]
+        >>> Solution().getNoZeroIntegers(1010)
+        [11, 999]
+    """
