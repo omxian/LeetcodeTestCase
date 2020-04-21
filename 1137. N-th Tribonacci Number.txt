@@ -1,0 +1,10 @@
+"""
+        >>> Solution().tribonacci(4)
+        4
+        >>> Solution().tribonacci(25)
+        1389537
+        >>> Solution().tribonacci(0)
+        0
+        >>> Solution().tribonacci(30)
+        29249425
+    """

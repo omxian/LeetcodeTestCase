@@ -1,0 +1,17 @@
+"""
+        >>> node1 = ListNode(0)
+        >>> Solution().getDecimalValue(node1)
+        0
+        >>> node1 = ListNode(1)
+        >>> Solution().getDecimalValue(node1)
+        1
+        >>> node1 = ListNode(0)
+        >>> node1.next = ListNode(0)
+        >>> Solution().getDecimalValue(node1)
+        0
+        >>> node1 = ListNode(1)
+        >>> node1.next = ListNode(0)
+        >>> node1.next.next = ListNode(1)
+        >>> Solution().getDecimalValue(node1)
+        5
+    """

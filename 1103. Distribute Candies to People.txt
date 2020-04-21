@@ -1,0 +1,6 @@
+"""
+        >>> Solution().distributeCandies(candies = 7, num_people = 4)
+        [1, 2, 3, 1]
+        >>> Solution().distributeCandies(candies = 10, num_people = 3)
+        [5, 2, 3]
+    """
