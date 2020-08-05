@@ -1,0 +1,8 @@
+"""
+        >>> Solution().maxProduct(["abcw","baz","foo","bar","xtfn","abcdef"])
+        16
+        >>> Solution().maxProduct(["a","ab","abc","d","cd","bcd","abcd"])
+        4
+        >>> Solution().maxProduct(["a","aa","aaa","aaaa"])
+        0
+    """
