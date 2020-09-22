@@ -1,0 +1,12 @@
+"""
+        >>> Solution().divide(dividend = 10, divisor = 3)
+        3
+        >>> Solution().divide(dividend = 7, divisor = -3)
+        -2
+        >>> Solution().divide(dividend = 0, divisor = 1)
+        0
+        >>> Solution().divide(dividend = 1, divisor = 1)
+        1
+        >>> Solution().divide(dividend = -2147483648, divisor = -1)
+        2147483647
+"""
