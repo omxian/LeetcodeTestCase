@@ -1,0 +1,12 @@
+"""
+        >>> Solution().reorderSpaces("  this   is  a sentence ")
+        'this   is   a   sentence'
+        >>> Solution().reorderSpaces(" practice   makes   perfect")
+        'practice   makes   perfect '
+        >>> Solution().reorderSpaces("hello   world")
+        'hello   world'
+        >>> Solution().reorderSpaces("  walks  udp package   into  bar a")
+        'walks  udp  package  into  bar  a '
+        >>> Solution().reorderSpaces("a")
+        'a'
+    """
