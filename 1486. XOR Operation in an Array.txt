@@ -1,0 +1,10 @@
+"""
+        >>> Solution().xorOperation(n = 5, start = 0)
+        8
+        >>> Solution().xorOperation(n = 4, start = 3)
+        8
+        >>> Solution().xorOperation(n = 1, start = 7)
+        7
+        >>> Solution().xorOperation(n = 10, start = 5)
+        2
+    """

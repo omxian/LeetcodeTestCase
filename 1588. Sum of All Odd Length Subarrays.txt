@@ -1,0 +1,10 @@
+"""
+        >>> Solution().sumOddLengthSubarrays(arr = [1,4,2,5,3])
+        58
+        >>> Solution().sumOddLengthSubarrays(arr = [1,2])
+        3
+        >>> Solution().sumOddLengthSubarrays(arr = [10,11,12])
+        66
+        >>> Solution().sumOddLengthSubarrays(arr = [6,9,14,5,3,8,7,12,13,1])
+        878
+    """

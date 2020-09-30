@@ -1,0 +1,10 @@
+"""
+        >>> Solution().restoreString(s = "abc", indices = [0,1,2])
+        'abc'
+        >>> Solution().restoreString(s = "aiohn", indices = [3,1,4,2,0])
+        'nihao'
+        >>> Solution().restoreString(s = "aaiougrt", indices = [4,0,2,6,7,3,1,5])
+        'arigatou'
+        >>> Solution().restoreString(s = "art", indices = [1,0,2])
+        'rat'
+    """
