@@ -1,0 +1,10 @@
+"""
+        >>> Solution().balancedStringSplit(s = "RLRRLLRLRL")
+        4
+        >>> Solution().balancedStringSplit(s = "RLLLLRRRLR")
+        3
+        >>> Solution().balancedStringSplit(s = "LLLLRRRR")
+        1
+        >>> Solution().balancedStringSplit(s = "RLRRRLLRLL")
+        2
+    """
