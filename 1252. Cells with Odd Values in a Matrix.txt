@@ -1,0 +1,6 @@
+"""
+        >>> Solution().oddCells(n = 2, m = 3, indices = [[0,1],[1,1]])
+        6
+        >>> Solution().oddCells(n = 2, m = 2, indices = [[1,1],[0,0]])
+        0
+    """
