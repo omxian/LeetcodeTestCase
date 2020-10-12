@@ -1,0 +1,8 @@
+"""
+        >>> Solution().diagonalSum(mat = [[1,2,3],[4,5,6],[7,8,9]])
+        25
+        >>> Solution().diagonalSum(mat = [[1,1,1,1],[1,1,1,1],[1,1,1,1],[1,1,1,1]])
+        8
+        >>> Solution().diagonalSum(mat = [[5]])
+        5
+    """

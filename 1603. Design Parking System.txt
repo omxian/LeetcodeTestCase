@@ -1,0 +1,11 @@
+"""
+        >>> parkingSystem = Solution(1, 1, 0)
+        >>> parkingSystem.addCar(1)
+        True
+        >>> parkingSystem.addCar(2)
+        True
+        >>> parkingSystem.addCar(3)
+        False
+        >>> parkingSystem.addCar(1)
+        False
+    """
