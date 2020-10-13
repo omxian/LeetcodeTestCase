@@ -1,0 +1,6 @@
+"""
+        >>> Solution().canMakeArithmeticProgression(arr = [3,5,1])
+        True
+        >>> Solution().canMakeArithmeticProgression(arr = [1,2,4])
+        False
+    """

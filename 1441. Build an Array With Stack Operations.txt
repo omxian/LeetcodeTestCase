@@ -1,0 +1,10 @@
+"""
+        >>> Solution().buildArray(target = [1,3], n = 3)
+        ['Push', 'Push', 'Pop', 'Push']
+        >>> Solution().buildArray(target = [1,2,3], n = 3)
+        ['Push', 'Push', 'Push']
+        >>> Solution().buildArray(target = [1,2], n = 4)
+        ['Push', 'Push']
+        >>> Solution().buildArray(target = [2,3,4], n = 4)
+        ['Push', 'Pop', 'Push', 'Push', 'Push']
+    """
