@@ -1,0 +1,8 @@
+"""
+        >>> Solution().maxProduct(nums = [3,4,5,2])
+        12
+        >>> Solution().maxProduct(nums = [1,5,4,5])
+        16
+        >>> Solution().maxProduct(nums = [3,7])
+        12
+    """

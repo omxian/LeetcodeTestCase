@@ -1,0 +1,8 @@
+"""
+        >>> Solution().destCity(paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]])
+        'Sao Paulo'
+        >>> Solution().destCity(paths = [["B","C"],["D","B"],["C","A"]])
+        'A'
+        >>> Solution().destCity(paths = [["A","Z"]])
+        'Z'
+    """
