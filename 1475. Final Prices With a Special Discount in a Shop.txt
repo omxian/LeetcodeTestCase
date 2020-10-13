@@ -1,0 +1,8 @@
+"""
+        >>> Solution().finalPrices(prices = [8,4,6,2,3])
+        [4, 2, 4, 2, 3]
+        >>> Solution().finalPrices(prices = [1,2,3,4,5])
+        [1, 2, 3, 4, 5]
+        >>> Solution().finalPrices(prices = [10,1,1,6])
+        [9, 0, 1, 6]
+    """
