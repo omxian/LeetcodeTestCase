@@ -1,0 +1,16 @@
+"""
+        >>> rt = TreeNode(1)
+        >>> rt.left = TreeNode(2)
+        >>> rt.right = TreeNode(3)
+        >>> rt.left.left = TreeNode(4)
+        >>> Solution().isCousins(rt, 4, 3)
+        False
+
+        >>> rt = TreeNode(1)
+        >>> rt.left = TreeNode(2)
+        >>> rt.right = TreeNode(3)
+        >>> rt.left.right = TreeNode(4)
+        >>> rt.right.right = TreeNode(5)
+        >>> Solution().isCousins(rt, 4, 5)
+        True
+    """

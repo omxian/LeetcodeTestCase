@@ -1,0 +1,12 @@
+"""
+        >>> Solution().isLongPressedName(name = "alex", typed = "aaleex")
+        True
+        >>> Solution().isLongPressedName(name = "saeed", typed = "ssaaedd")
+        False
+        >>> Solution().isLongPressedName(name = "leelee", typed = "lleeelee")
+        True
+        >>> Solution().isLongPressedName(name = "laiden", typed = "laiden")
+        True
+        >>> Solution().isLongPressedName(name = "alex", typed = "alexxr")
+        False
+    """
