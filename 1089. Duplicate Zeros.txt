@@ -1,0 +1,22 @@
+"""
+        >>> arr = [1,0,2,3,0,4,5,0]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [1, 0, 0, 2, 3, 0, 0, 4]
+        >>> arr = [1,2,3]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [1, 2, 3]
+        >>> arr = [1,0,3]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [1, 0, 0]
+        >>> arr = [8,5,0,9,0,3,4,7]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [8, 5, 0, 0, 9, 0, 0, 3]
+        >>> arr = [0,1,7,6,0,2,0,7]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [0, 0, 1, 7, 6, 0, 0, 2]
+    """

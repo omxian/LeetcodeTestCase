@@ -1,0 +1,4 @@
+"""
+        >>> Solution().sortArrayByParityII([4,2,5,7])
+        [2, 7, 4, 5]
+    """
