@@ -1,0 +1,10 @@
+    """
+        >>> Solution().numMovesStones(a = 1, b = 2, c = 5)
+        [1, 2]
+        >>> Solution().numMovesStones(a = 4, b = 3, c = 2)
+        [0, 0]
+        >>> Solution().numMovesStones(a = 3, b = 5, c = 1)
+        [1, 2]
+        >>> Solution().numMovesStones(1,3,6)
+        [1, 3]
+    """

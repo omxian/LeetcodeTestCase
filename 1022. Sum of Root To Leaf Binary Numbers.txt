@@ -1,0 +1,21 @@
+"""
+        >>> rt = TreeNode(1)
+        >>> Solution().sumRootToLeaf(rt)
+        1
+        >>> rt = TreeNode(0)
+        >>> Solution().sumRootToLeaf(rt)
+        0
+        >>> rt = TreeNode(1)
+        >>> rt.left = TreeNode(1)
+        >>> Solution().sumRootToLeaf(rt)
+        3
+        >>> rt = TreeNode(1)
+        >>> rt.left = TreeNode(0)
+        >>> rt.left.left = TreeNode(0)
+        >>> rt.left.right = TreeNode(1)
+        >>> rt.right = TreeNode(1)
+        >>> rt.right.right = TreeNode(1)
+        >>> rt.right.left = TreeNode(0)
+        >>> Solution().sumRootToLeaf(rt)
+        22
+    """

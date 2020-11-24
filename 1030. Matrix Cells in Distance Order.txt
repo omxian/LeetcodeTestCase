@@ -1,0 +1,6 @@
+"""
+        >>> Solution().allCellsDistOrder(R = 1, C = 2, r0 = 0, c0 = 0)
+        [[0, 0], [0, 1]]
+        >>> Solution().allCellsDistOrder(R = 2, C = 2, r0 = 0, c0 = 1)
+        [[0, 1], [0, 0], [1, 1], [1, 0]]
+    """
