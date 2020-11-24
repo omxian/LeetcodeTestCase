@@ -19,4 +19,8 @@
         >>> Solution().duplicateZeros(arr)
         >>> arr
         [0, 0, 1, 7, 6, 0, 0, 2]
+        >>> arr = [8,4,5,0,0,0,0,7]
+        >>> Solution().duplicateZeros(arr)
+        >>> arr
+        [8, 4, 5, 0, 0, 0, 0, 0]
     """
