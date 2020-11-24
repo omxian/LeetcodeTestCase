@@ -1,0 +1,6 @@
+    """
+        >>> Solution().isBoomerang([[1,1],[2,3],[3,2]])
+        True
+        >>> Solution().isBoomerang([[1,1],[2,2],[3,3]])
+        False
+    """
