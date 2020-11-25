@@ -1,0 +1,6 @@
+    """
+        >>> Solution().lastStoneWeight([2,7,4,1,8,1])
+        1
+        >>> Solution().lastStoneWeight([7,6,7,6,9])
+        3
+    """
