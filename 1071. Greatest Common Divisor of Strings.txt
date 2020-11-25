@@ -1,0 +1,14 @@
+"""
+        >>> Solution().gcdOfStrings(str1 = "ABCABC", str2 = "ABC")
+        'ABC'
+        >>> Solution().gcdOfStrings(str1 = "ABABAB", str2 = "ABAB")
+        'AB'
+        >>> Solution().gcdOfStrings(str1 = "ABABABAB", str2 = "ABAB")
+        'ABAB'
+        >>> Solution().gcdOfStrings(str1 = "LEET", str2 = "CODE")
+        ''
+        >>> Solution().gcdOfStrings(str1 = "ABCDEF", str2 = "ABC")
+        ''
+        >>> Solution().gcdOfStrings("TAUXXTAUXXTAUXXTAUXXTAUXX","TAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXXTAUXX")
+        'TAUXX'
+    """

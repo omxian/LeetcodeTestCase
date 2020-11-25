@@ -1,0 +1,6 @@
+    """
+        >>> Solution().numSmallerByFrequency(queries = ["cbd"], words = ["zaaaz"])
+        [1]
+        >>> Solution().numSmallerByFrequency(queries = ["bbb","cc"], words = ["a","aa","aaa","aaaa"])
+        [1, 2]
+    """

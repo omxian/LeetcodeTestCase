@@ -1,0 +1,6 @@
+    """
+        >>> Solution().findOcurrences(text = "alice is a good girl she is a good student", first = "a", second = "good")
+        ['girl', 'student']
+        >>> Solution().findOcurrences(text = "we will we will rock you", first = "we", second = "will")
+        ['we', 'rock']
+    """
