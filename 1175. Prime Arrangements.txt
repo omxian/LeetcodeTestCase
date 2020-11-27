@@ -1,0 +1,8 @@
+    """
+        >>> Solution().numPrimeArrangements(5)
+        12
+        >>> Solution().numPrimeArrangements(100)
+        682289015
+        >>> Solution().numPrimeArrangements(2)
+        1
+    """
