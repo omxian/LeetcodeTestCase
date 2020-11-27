@@ -1,0 +1,10 @@
+    """
+        >>> Solution().distanceBetweenBusStops(distance = [1,2,3,4], start = 0, destination = 1)
+        1
+        >>> Solution().distanceBetweenBusStops(distance = [1,2,3,4], start = 0, destination = 2)
+        3
+        >>> Solution().distanceBetweenBusStops(distance = [1,2,3,4], start = 0, destination = 3)
+        4
+        >>> Solution().distanceBetweenBusStops([7,10,1,12,11,14,5,0],7,2)
+        17
+    """
