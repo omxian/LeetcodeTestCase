@@ -1,0 +1,12 @@
+    """
+        >>> Solution().reformat(s = "a0b1c2")
+        '2c1b0a'
+        >>> Solution().reformat(s = "leetcode")
+        ''
+        >>> Solution().reformat(s = "1229857369")
+        ''
+        >>> Solution().reformat(s = "covid2019")
+        'd9i1v0o2c'
+        >>> Solution().reformat(s = "ab123")
+        '3b2a1'
+    """
