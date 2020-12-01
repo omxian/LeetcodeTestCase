@@ -1,0 +1,11 @@
+    """
+        >>> test = CustomFunction()
+        >>> test.f = lambda x,y:x+y
+        >>> Solution().findSolution(test, 5)
+        [[1, 4], [2, 3], [3, 2], [4, 1]]
+
+        >>> test = CustomFunction()
+        >>> test.f = lambda x,y:x*y
+        >>> Solution().findSolution(test, 5)
+        [[1, 5], [5, 1]]
+    """
