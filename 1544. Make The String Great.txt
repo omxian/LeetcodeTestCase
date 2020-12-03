@@ -1,0 +1,12 @@
+    """
+        >>> Solution().makeGood(s = "leEeetcode")
+        'leetcode'
+        >>> Solution().makeGood("abBAcC")
+        ''
+        >>> Solution().makeGood("s")
+        's'
+        >>> Solution().makeGood("Pp")
+        ''
+        >>> Solution().makeGood( "djrDdRJD")
+        ''
+    """

@@ -1,0 +1,24 @@
+"""
+        >>> Solution().containsPattern(arr = [1,2,4,4,4,4], m = 1, k = 3)
+        True
+        >>> Solution().containsPattern(arr = [1,2,1,2,1,1,1,3], m = 2, k = 2)
+        True
+        >>> Solution().containsPattern(arr = [1,2,1,2,1,3], m = 2, k = 3)
+        False
+        >>> Solution().containsPattern(arr = [1,2,3,1,2], m = 2, k = 2)
+        False
+        >>> Solution().containsPattern(arr = [2,2,2,2], m = 2, k = 3)
+        False
+        >>> Solution().containsPattern(arr = [1,2], m = 1, k = 2)
+        False
+        >>> Solution().containsPattern([3,6,6,6,5,1,5,2,2,3,1,5,2,6,1,5,1,2,6,3,3,5,3,6,3,4],6,2)
+        False
+        >>> Solution().containsPattern([3,4,3,2,2,4,4,1,4,4,1,3,3,4,4,2,4,1,2],4,2)
+        False
+        >>> Solution().containsPattern([99,9],1,3)
+        False
+        >>> Solution().containsPattern([2,2],1,2)
+        True
+        >>> Solution().containsPattern([5,4,5,3,5,4,5,2,5,3,2,2,5,3,2,4,3,2,5,3,1,5,5,5,1,5,1,1,3,2,1,2,5,3,3,4,2,2],4,2)
+        True
+    """
