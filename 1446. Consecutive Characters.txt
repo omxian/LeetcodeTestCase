@@ -1,0 +1,12 @@
+    """
+        >>> Solution().maxPower(s = "leetcode")
+        2
+        >>> Solution().maxPower(s = "abbcccddddeeeeedcba")
+        5
+        >>> Solution().maxPower(s = "triplepillooooow")
+        5
+        >>> Solution().maxPower(s = "hooraaaaaaaaaaay")
+        11
+        >>> Solution().maxPower(s = "tourist")
+        1
+    """

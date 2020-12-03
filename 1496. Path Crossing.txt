@@ -1,0 +1,8 @@
+"""
+        >>> Solution().isPathCrossing(path = "NES")
+        False
+        >>> Solution().isPathCrossing(path = "NESWW")
+        True
+        >>> Solution().isPathCrossing(path = "NNSWWEWSSESSWENNW")
+        True
+    """

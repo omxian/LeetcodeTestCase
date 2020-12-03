@@ -1,0 +1,8 @@
+"""
+        >>> Solution().reformatDate(date = "20th Oct 2052")
+        '2052-10-20'
+        >>> Solution().reformatDate(date = "6th Jun 1933")
+        '1933-06-06'
+        >>> Solution().reformatDate(date = "26th May 1960")
+        '1960-05-26'
+    """

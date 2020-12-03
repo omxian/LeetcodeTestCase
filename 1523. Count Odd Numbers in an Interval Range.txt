@@ -1,0 +1,12 @@
+    """
+        >>> Solution().countOdds(low = 3, high = 7)
+        3
+        >>> Solution().countOdds(low = 8, high = 10)
+        1
+        >>> Solution().countOdds(low = 800445804, high = 979430543)
+        89492369
+        >>> Solution().countOdds(low = 14, high = 17)
+        2
+        >>> Solution().countOdds(low = 21, high = 22)
+        1
+    """
