@@ -1,0 +1,10 @@
+    """
+        >>> Solution().thousandSeparator(n = 987)
+        '987'
+        >>> Solution().thousandSeparator(1234)
+        '1.234'
+        >>> Solution().thousandSeparator(123456789)
+        '123.456.789'
+        >>> Solution().thousandSeparator(0)
+        '0'
+    """
