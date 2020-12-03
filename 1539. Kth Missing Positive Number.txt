@@ -1,0 +1,6 @@
+"""
+        >>> Solution().findKthPositive(arr = [2,3,4,7,11], k = 5)
+        9
+        >>> Solution().findKthPositive(arr = [1,2,3,4], k = 2)
+        6
+    """

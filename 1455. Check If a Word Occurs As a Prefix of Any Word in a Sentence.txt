@@ -1,0 +1,14 @@
+"""
+        >>> Solution().isPrefixOfWord(sentence = "i love eating burger", searchWord = "burg")
+        4
+        >>> Solution().isPrefixOfWord(sentence = "this problem is an easy problem", searchWord = "pro")
+        2
+        >>> Solution().isPrefixOfWord(sentence = "i am tired", searchWord = "you")
+        -1
+        >>> Solution().isPrefixOfWord(sentence = "i use triple pillow", searchWord = "pill")
+        4
+        >>> Solution().isPrefixOfWord(sentence = "hello from the other side", searchWord = "they")
+        -1
+        >>> Solution().isPrefixOfWord("hellohello hellohellohello","ell")
+        -1
+    """

@@ -1,0 +1,10 @@
+"""
+        >>> Solution().maxScore(s = "011101")
+        5
+        >>> Solution().maxScore(s = "00111")
+        5
+        >>> Solution().maxScore(s = "1111")
+        3
+        >>> Solution().maxScore(s = "00")
+        1
+    """
