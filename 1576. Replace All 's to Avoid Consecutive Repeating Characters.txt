@@ -1,0 +1,12 @@
+    """
+        >>> Solution().modifyString(s = "?zs")
+        'azs'
+        >>> Solution().modifyString(s = 'ubv?w')
+        'ubvaw'
+        >>> Solution().modifyString(s = "j?qg??b")
+        'jaqgacb'
+        >>> Solution().modifyString(s = "??yw?ipkj?")
+        'abywaipkja'
+        >>> Solution().modifyString(s = "???")
+        'aba'
+    """
