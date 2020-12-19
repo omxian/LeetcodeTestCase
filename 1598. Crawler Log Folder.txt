@@ -1,0 +1,10 @@
+"""
+        >>> Solution().minOperations(logs = ["d1/","d2/","../","d21/","./"])
+        2
+        >>> Solution().minOperations(logs = ["d1/","d2/","./","d3/","../","d31/"])
+        3
+        >>> Solution().minOperations(logs = ["d1/","../","../","../"])
+        0
+        >>> Solution().minOperations(logs = ["./","../","./"])
+        0
+    """
