@@ -1,0 +1,10 @@
+    """
+        >>> Solution().getMaximumGenerated(n = 7)
+        3
+        >>> Solution().getMaximumGenerated(n = 2)
+        1
+        >>> Solution().getMaximumGenerated(n = 3)
+        2
+        >>> Solution().getMaximumGenerated(n = 0)
+        0
+    """

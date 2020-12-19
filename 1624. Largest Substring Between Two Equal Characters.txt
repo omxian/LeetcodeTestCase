@@ -1,0 +1,10 @@
+    """
+        >>> Solution().maxLengthBetweenEqualCharacters(s = "aa")
+        0
+        >>> Solution().maxLengthBetweenEqualCharacters(s = "abca")
+        2
+        >>> Solution().maxLengthBetweenEqualCharacters(s = "cbzxy")
+        -1
+        >>> Solution().maxLengthBetweenEqualCharacters(s = "cabbac")
+        4
+    """
