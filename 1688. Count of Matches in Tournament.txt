@@ -1,0 +1,6 @@
+    """
+        >>> Solution().numberOfMatches(n = 7)
+        6
+        >>> Solution().numberOfMatches(n = 14)
+        13
+    """
