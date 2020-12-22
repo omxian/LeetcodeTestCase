@@ -1,0 +1,8 @@
+    """
+        >>> Solution().interpret(command = "G()(al)")
+        'Goal'
+        >>> Solution().interpret(command = "G()()()()(al)")
+        'Gooooal'
+        >>> Solution().interpret(command = "(al)G(al)()()G")
+        'alGalooG'
+    """
