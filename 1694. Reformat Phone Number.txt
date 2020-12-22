@@ -1,0 +1,14 @@
+    """
+        >>> Solution().reformatNumber(number = "1-23-45 6")
+        '123-456'
+        >>> Solution().reformatNumber(number = "123 4-567")
+        '123-45-67'
+        >>> Solution().reformatNumber(number = "123 4-5678")
+        '123-456-78'
+        >>> Solution().reformatNumber(number = "12")
+        '12'
+        >>> Solution().reformatNumber(number = "--17-5 229 35-39475 ")
+        '175-229-353-94-75'
+        >>> Solution().reformatNumber("9964-")
+        '99-64'
+    """
