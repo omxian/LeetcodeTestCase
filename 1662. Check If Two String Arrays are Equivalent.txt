@@ -1,0 +1,8 @@
+    """
+        >>> Solution().arrayStringsAreEqual(word1 = ["ab", "c"], word2 = ["a", "bc"])
+        True
+        >>> Solution().arrayStringsAreEqual(word1 = ["a", "cb"], word2 = ["ab", "c"])
+        False
+        >>> Solution().arrayStringsAreEqual(word1  = ["abc", "d", "defg"], word2 = ["abcddefg"])
+        True
+    """

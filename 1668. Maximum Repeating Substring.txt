@@ -1,0 +1,10 @@
+"""
+        >>> Solution().maxRepeating(sequence = "ababc", word = "ab")
+        2
+        >>> Solution().maxRepeating(sequence = "ababc", word = "ba")
+        1
+        >>> Solution().maxRepeating(sequence = "ababc", word = "ac")
+        0
+        >>> Solution().maxRepeating(sequence = "aaabaaaabaaabaaaabaaaabaaaabaaaaba", word = "aaaba")
+        5
+    """

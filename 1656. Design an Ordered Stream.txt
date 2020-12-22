@@ -1,0 +1,13 @@
+    """
+        >>> os = OrderedStream(5)
+        >>> os.insert(3, "ccccc")
+        []
+        >>> os.insert(1, "aaaaa")
+        ['aaaaa']
+        >>> os.insert(2, "bbbbb")
+        ['bbbbb', 'ccccc']
+        >>> os.insert(5, "eeeee")
+        []
+        >>> os.insert(4, "ddddd")
+        ['ddddd', 'eeeee']
+    """
