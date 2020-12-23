@@ -1,0 +1,9 @@
+
+    """
+        >>> Solution().minPartitions(n = "32")
+        3
+        >>> Solution().minPartitions(n = "82734")
+        8
+        >>> Solution().minPartitions(n = "27346209830709182346")
+        9
+    """
