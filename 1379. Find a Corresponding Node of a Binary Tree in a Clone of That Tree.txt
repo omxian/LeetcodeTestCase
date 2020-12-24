@@ -1,0 +1,15 @@
+"""
+        >>> t1 = TreeNode(7)
+        >>> t1.left = TreeNode(4)
+        >>> t1.right = TreeNode(3)
+        >>> t1.right.left = TreeNode(6)
+        >>> t1.right.right = TreeNode(19)
+
+        >>> t2 = TreeNode(7)
+        >>> t2.left = TreeNode(4)
+        >>> t2.right = TreeNode(3)
+        >>> t2.right.left = TreeNode(6)
+        >>> t2.right.right = TreeNode(19)
+        >>> Solution().getTargetCopy(t1,t2, TreeNode(3)).val
+        3
+    """
