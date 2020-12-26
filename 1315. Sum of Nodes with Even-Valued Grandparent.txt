@@ -1,0 +1,20 @@
+    """
+        >>> t = TreeNode(6)
+        >>> t.left = TreeNode(7)
+        >>> t.left.left = TreeNode(2)
+        >>> t.left.right = TreeNode(7)
+        >>> t.right = TreeNode(8)
+        >>> t.right.left = TreeNode(1)
+        >>> t.right.right = TreeNode(3)
+        >>> t.right.right.right = TreeNode(5)
+        >>> Solution().sumEvenGrandparent(t)
+        18
+
+        >>> t = TreeNode(61)
+        >>> t.left = TreeNode(13)
+        >>> t.right = TreeNode(46)
+        >>> t.right.right = TreeNode(56)
+        >>> t.right.right.left = TreeNode(72)
+        >>> Solution().sumEvenGrandparent(t)
+        72
+    """
