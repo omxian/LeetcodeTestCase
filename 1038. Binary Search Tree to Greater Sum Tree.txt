@@ -1,0 +1,18 @@
+    """
+        >>> root = TreeNode(4)
+        >>> root.left = TreeNode(1)
+        >>> root.left.left= TreeNode(0)
+        >>> root.left.right= TreeNode(2)
+        >>> root.left.right.right= TreeNode(3)
+        >>> root.right = TreeNode(6)
+        >>> root.right.right = TreeNode(7)
+        >>> root.right.right.right = TreeNode(8)
+        >>> root.right.left = TreeNode(5)
+        >>> result = Solution().bstToGst(root)
+        >>> result.val
+        30
+        >>> result.left.val
+        36
+        >>> result.right.val
+        21
+    """

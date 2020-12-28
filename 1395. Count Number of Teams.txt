@@ -1,0 +1,8 @@
+    """
+        >>> Solution().numTeams(rating = [2,5,3,4,1])
+        3
+        >>> Solution().numTeams(rating = [2,1,3])
+        0
+        >>> Solution().numTeams(rating = [1,2,3,4])
+        4
+    """
