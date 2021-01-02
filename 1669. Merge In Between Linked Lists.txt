@@ -1,0 +1,12 @@
+"""
+        >>> list_node1 = ListNode(0, ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5))))))
+        >>> result = Solution().mergeInBetween(list_node1, 3,4,ListNode(1000000,ListNode(1000001, ListNode(1000002))))
+        >>> result.val
+        0
+        >>> result.next.next.next.val
+        1000000
+        >>> result.next.next.next.next.val
+        1000001
+        >>> result.next.next.next.next.next.next.val
+        5
+    """

@@ -1,0 +1,15 @@
+"""
+        >>> result = Solution().bstFromPreorder([8,5,1,7,10,12])
+        >>> result.val
+        8
+        >>> result.left.val
+        5
+        >>> result.left.left.val
+        1
+        >>> result.left.right.val
+        7
+        >>> result.right.val
+        10
+        >>> result.right.right.val
+        12
+    """
