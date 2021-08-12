@@ -1,0 +1,6 @@
+    """
+        >>> Solution().arrayNesting(nums = [5,4,0,3,1,6,2])
+        4
+        >>> Solution().arrayNesting(nums = [0,1,2])
+        1
+    """
