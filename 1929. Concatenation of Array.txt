@@ -1,0 +1,6 @@
+    """
+        >>> Solution().getConcatenation(nums = [1,2,1])
+        [1, 2, 1, 1, 2, 1]
+        >>> Solution().getConcatenation(nums = [1,3,2,1])
+        [1, 3, 2, 1, 1, 3, 2, 1]
+    """
