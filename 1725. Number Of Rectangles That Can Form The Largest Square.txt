@@ -1,0 +1,6 @@
+    """
+        >>> Solution().countGoodRectangles(rectangles = [[5,8],[3,9],[5,12],[16,5]])
+        3
+        >>> Solution().countGoodRectangles(rectangles = [[2,3],[3,7],[4,3],[3,7]])
+        3
+    """

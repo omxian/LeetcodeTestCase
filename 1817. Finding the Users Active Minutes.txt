@@ -1,0 +1,6 @@
+    """
+        >>> Solution().findingUsersActiveMinutes(logs = [[0,5],[1,2],[0,2],[0,5],[1,3]], k = 5)
+        [0, 2, 0, 0, 0]
+        >>> Solution().findingUsersActiveMinutes(logs = [[1,1],[2,2],[2,3]], k = 4)
+        [1, 1, 0, 0]
+    """

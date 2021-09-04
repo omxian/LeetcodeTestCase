@@ -1,0 +1,10 @@
+    """
+        >>> Solution().halvesAreAlike(s = "book")
+        True
+        >>> Solution().halvesAreAlike(s = "textbook")
+        False
+        >>> Solution().halvesAreAlike(s = "MerryChristmas")
+        False
+        >>> Solution().halvesAreAlike(s = "AbCdEfGh")
+        True
+    """

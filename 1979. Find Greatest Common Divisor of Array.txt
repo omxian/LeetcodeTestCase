@@ -1,0 +1,8 @@
+    """
+        >>> Solution().findGCD(nums = [2,5,6,9,10])
+        2
+        >>> Solution().findGCD( nums = [7,5,6,8,3])
+        1
+        >>> Solution().findGCD(nums = [3,3])
+        3
+    """

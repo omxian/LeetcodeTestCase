@@ -1,0 +1,14 @@
+    """
+        >>> Solution().minOperations(n = 1)
+        0
+        >>> Solution().minOperations(n = 2)
+        1
+        >>> Solution().minOperations(n = 3)
+        2
+        >>> Solution().minOperations(n = 4)
+        4
+        >>> Solution().minOperations(n = 5)
+        6
+        >>> Solution().minOperations(n = 6)
+        9
+    """

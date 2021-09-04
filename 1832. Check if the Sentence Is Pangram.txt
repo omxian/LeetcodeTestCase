@@ -1,0 +1,6 @@
+    """
+        >>> Solution().checkIfPangram(sentence = "thequickbrownfoxjumpsoverthelazydog")
+        True
+        >>> Solution().checkIfPangram(sentence = "leetcode")
+        False
+    """

@@ -1,0 +1,6 @@
+    """
+        >>> Solution().minPairSum(nums = [3,5,2,3])
+        7
+        >>> Solution().minPairSum(nums = [3,5,4,2,4,6])
+        8
+    """

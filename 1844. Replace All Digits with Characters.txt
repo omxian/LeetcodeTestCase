@@ -1,0 +1,6 @@
+    """
+        >>> Solution().replaceDigits(s = "a1c1e1")
+        'abcdef'
+        >>> Solution().replaceDigits(s = "a1b2c3d4e")
+        'abbdcfdhe'
+    """
