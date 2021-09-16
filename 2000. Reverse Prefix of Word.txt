@@ -1,0 +1,8 @@
+    """
+        >>> Solution().reversePrefix(word = "abcdefd", ch = "d")
+        'dcbaefd'
+        >>> Solution().reversePrefix(word = "xyxzxe", ch = "z")
+        'zxyxxe'
+        >>> Solution().reversePrefix(word = "abcd", ch = "z")
+        'abcd'
+    """

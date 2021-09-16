@@ -1,0 +1,7 @@
+    """
+        >>> root = gen_tree_by_arr([1,None,2,None,3,None,4,None,None])
+        >>> root = Solution().balanceBST(root)
+        >>> compare_root = gen_tree_by_arr([2,1,3,None,None,None,4])
+        >>> tree_equal(root, compare_root)
+        True
+    """
