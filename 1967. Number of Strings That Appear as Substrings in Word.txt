@@ -1,0 +1,8 @@
+    """
+        >>> Solution().numOfStrings(patterns = ["a","abc","bc","d"], word = "abc")
+        3
+        >>> Solution().numOfStrings( patterns = ["a","b","c"], word = "aaaaabbbbb")
+        2
+        >>> Solution().numOfStrings( patterns = ["a","a","a"], word = "ab")
+        3
+    """

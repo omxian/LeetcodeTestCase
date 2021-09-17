@@ -1,0 +1,8 @@
+    """
+        >>> Solution().squareIsWhite(coordinates = "a1")
+        False
+        >>> Solution().squareIsWhite(coordinates = "h3")
+        True
+        >>> Solution().squareIsWhite(coordinates = "c7")
+        False
+    """

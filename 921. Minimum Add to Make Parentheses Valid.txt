@@ -1,0 +1,12 @@
+    """
+        >>> Solution().minAddToMakeValid(s = "())")
+        1
+        >>> Solution().minAddToMakeValid(s = "(((")
+        3
+        >>> Solution().minAddToMakeValid(s = "()")
+        0
+        >>> Solution().minAddToMakeValid(s = "()))((")
+        4
+        >>> Solution().minAddToMakeValid(s = ")))(((")
+        6
+    """

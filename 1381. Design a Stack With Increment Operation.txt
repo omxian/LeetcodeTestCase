@@ -1,0 +1,20 @@
+    """
+        >>> customStack = CustomStack(3)
+        >>> customStack.push(1)
+        >>> customStack.push(2)
+        >>> customStack.pop()
+        2
+        >>> customStack.push(2)
+        >>> customStack.push(3)
+        >>> customStack.push(4)
+        >>> customStack.increment(5, 100)
+        >>> customStack.increment(2, 100)
+        >>> customStack.pop()
+        103
+        >>> customStack.pop()
+        202
+        >>> customStack.pop()
+        201
+        >>> customStack.pop()
+        -1
+    """

@@ -1,0 +1,6 @@
+    """
+        >>> Solution().areOccurrencesEqual(s = "abacbc")
+        True
+        >>> Solution().areOccurrencesEqual(s = "aaabb")
+        False
+    """
