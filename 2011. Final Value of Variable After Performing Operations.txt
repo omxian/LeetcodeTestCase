@@ -1,0 +1,4 @@
+    """
+        >>> Solution().finalValueAfterOperations(operations = ["--X","X++","X++"])
+        1
+    """

@@ -1,0 +1,8 @@
+    """
+        >>> Solution().findAndReplacePattern(words = ["abc","deq","mee","aqq","dkd","ccc"], pattern = "abb")
+        ['mee', 'aqq']
+        >>> Solution().findAndReplacePattern(words = ["a","b","c"], pattern = "a")
+        ['a', 'b', 'c']
+        >>> Solution().findAndReplacePattern(["qxrwtncxyoqwmsxoavos","eqvzjrnqgkezxmqkhdkm","pjxmgdujohpmtsjhazhs","yqhlipeqwnylkrqnsbnr","plktdyslmoptqflowaof"], "ghtxpauhingxekhnoqnk")
+        ['qxrwtncxyoqwmsxoavos', 'eqvzjrnqgkezxmqkhdkm', 'pjxmgdujohpmtsjhazhs', 'yqhlipeqwnylkrqnsbnr', 'plktdyslmoptqflowaof']
+    """

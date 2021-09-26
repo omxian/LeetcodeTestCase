@@ -1,0 +1,8 @@
+    """
+        >>> Solution().numTilePossibilities(tiles = "AAB")
+        8
+        >>> Solution().numTilePossibilities(tiles = "AAABBC")
+        188
+        >>> Solution().numTilePossibilities(tiles = "V")
+        1
+    """
