@@ -1,0 +1,27 @@
+"""
+        >>> obj = FindElements(gen_tree_by_arr([-1,-1,-1,-1,-1]))
+        >>> obj.find(1)
+        True
+        >>> obj.find(3)
+        True
+        >>> obj.find(5)
+        False
+
+        >>> obj = FindElements(gen_tree_by_arr([-1,None,-1,-1,None,-1]))
+        >>> obj.find(2)
+        True
+        >>> obj.find(3)
+        False
+        >>> obj.find(4)
+        False
+        >>> obj.find(5)
+        True
+
+        >>> obj = FindElements(gen_tree_by_arr([-1,-1,-1,None,None,-1,-1,None,None,None,-1]))
+        >>> obj.find(6)
+        True
+        >>> obj.find(1)
+        True
+        >>> obj.find(6)
+        True
+    """

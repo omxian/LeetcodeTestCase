@@ -1,0 +1,12 @@
+    """
+        >>> Solution().minSteps(s = "bab", t = "aba")
+        1
+        >>> Solution().minSteps(s = "leetcode", t = "practice")
+        5
+        >>> Solution().minSteps(s = "anagram", t = "mangaar")
+        0
+        >>> Solution().minSteps(s = "xxyyzz", t = "xxyyzz")
+        0
+        >>> Solution().minSteps(s = "friend", t = "family")
+        4
+    """
