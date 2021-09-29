@@ -1,0 +1,8 @@
+    """
+        >>> Solution().sumBase(n = 34, k = 6)
+        9
+        >>> Solution().sumBase(n = 10, k = 10)
+        1
+        >>> Solution().sumBase(n = 42, k = 2)
+        3
+    """
