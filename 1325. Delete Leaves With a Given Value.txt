@@ -1,0 +1,27 @@
+"""
+        >>> root = gen_tree_by_arr([1,3,3,3,2])
+        >>> root = Solution().removeLeafNodes(root, target = 3)
+        >>> compare = gen_tree_by_arr([1,3,None,None,2])
+        >>> tree_equal(root, compare)
+        True
+        >>> root = gen_tree_by_arr([1,2,3,2,None,2,4])
+        >>> root = Solution().removeLeafNodes(root, target = 2)
+        >>> compare = gen_tree_by_arr([1,None,3,None,4])
+        >>> tree_equal(root, compare)
+        True
+        >>> root = gen_tree_by_arr([1,2,None,2,None,2])
+        >>> root = Solution().removeLeafNodes(root, target = 2)
+        >>> compare = gen_tree_by_arr([1])
+        >>> tree_equal(root, compare)
+        True
+        >>> root = gen_tree_by_arr([1,1,1])
+        >>> root = Solution().removeLeafNodes(root, target = 1)
+        >>> compare = gen_tree_by_arr([])
+        >>> tree_equal(root, compare)
+        True
+        >>> root = gen_tree_by_arr([1,2,3])
+        >>> root = Solution().removeLeafNodes(root, target = 1)
+        >>> compare = gen_tree_by_arr([1,2,3])
+        >>> tree_equal(root, compare)
+        True
+    """
