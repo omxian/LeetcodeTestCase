@@ -1,0 +1,22 @@
+    """
+        >>> root = gen_tree_by_arr([4,2,7,1,3])
+        >>> root = Solution().insertIntoBST(root , val = 5)
+        >>> result = gen_tree_by_arr([4,2,7,1,3,5])
+        >>> tree_equal(root, result)
+        True
+        >>> root = gen_tree_by_arr([40,20,60,10,30,50,70])
+        >>> root = Solution().insertIntoBST(root , val = 25)
+        >>> result = gen_tree_by_arr([40,20,60,10,30,50,70,None,None,25])
+        >>> tree_equal(root, result)
+        True
+        >>> root = gen_tree_by_arr([4,2,7,1,3,None,None,None,None,None,None])
+        >>> root = Solution().insertIntoBST(root , val = 5)
+        >>> result = gen_tree_by_arr([4,2,7,1,3,5])
+        >>> tree_equal(root, result)
+        True
+        >>> root = gen_tree_by_arr([])
+        >>> root = Solution().insertIntoBST(root , val = 5)
+        >>> result = gen_tree_by_arr([5])
+        >>> tree_equal(root, result)
+        True
+    """
