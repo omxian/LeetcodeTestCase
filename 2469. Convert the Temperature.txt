@@ -1,0 +1,7 @@
+double[] result1 = new ConvertTemperature().Solution(36.50);
+Assert.AreEqual(309.65000, result1[0]);
+Assert.AreEqual(97.70000, result1[1]);
+
+double[] result2 = new ConvertTemperature().Solution(122.11);
+Assert.AreEqual(395.26000, result2[0]);
+Assert.AreEqual(251.79800, result2[1]);
