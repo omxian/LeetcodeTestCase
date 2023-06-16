@@ -1,0 +1,101 @@
+            SnapshotArray cls1 = new SnapshotArray(3);
+            cls1.Set(0, 5);
+            Assert.AreEqual(0, cls1.Snap());
+            cls1.Set(0, 6);
+            Assert.AreEqual(5, cls1.Get(0, 0));
+
+            SnapshotArray cls2 = new SnapshotArray(4);
+            Assert.AreEqual(0, cls2.Snap());
+            Assert.AreEqual(1, cls2.Snap());
+            Assert.AreEqual(0, cls2.Get(3, 1));
+            cls2.Set(2, 4);
+            Assert.AreEqual(2, cls2.Snap());
+            cls2.Set(1, 4);
+
+            //// many snap
+            //// many get
+            //// many set
+
+            SnapshotArray cls3 = new SnapshotArray(1);
+            cls3.Set(0, 15);
+            cls3.Snap();
+            cls3.Snap();
+            cls3.Snap();
+            cls3.Get(0, 2);
+            cls3.Snap();
+            cls3.Snap();
+            Assert.AreEqual(15, cls3.Get(0, 0));
+
+            SnapshotArray cls4 = new SnapshotArray(1);
+            cls4.Snap();
+            cls4.Get(0, 0);
+            cls4.Set(0, 7);
+            cls4.Snap();
+            cls4.Snap();
+            cls4.Get(0, 2);
+            Assert.AreEqual(0, cls4.Get(0, 0));
+            cls4.Get(0, 1);
+            cls4.Snap();
+            cls4.Snap();
+            cls4.Set(0, 2);
+
+            SnapshotArray cls5 = new SnapshotArray(1);
+            cls5.Snap();
+            cls5.Get(0, 0);
+            cls5.Snap();
+            cls5.Get(0, 0);
+            cls5.Set(0, 13);
+            cls5.Set(0, 4);
+            cls5.Set(0, 17);
+            cls5.Get(0, 0);
+            cls5.Set(0, 2);
+            cls5.Get(0, 1);
+            cls5.Snap();
+            Assert.AreEqual(2, cls5.Get(0, 2));
+            Assert.AreEqual(0, cls5.Get(0, 0));
+            cls5.Snap();
+
+            SnapshotArray cls6 = new SnapshotArray(3);
+            cls6.Set(1, 18);
+            cls6.Set(1, 4);
+            cls6.Snap();
+            cls6.Get(0, 0);
+            cls6.Set(0, 20);
+            cls6.Snap();
+            cls6.Set(0, 2);
+            cls6.Set(1, 1);
+            Assert.AreEqual(4, cls6.Get(1, 1));
+            Assert.AreEqual(4, cls6.Get(1, 0));
+
+            SnapshotArray cls7 = new SnapshotArray(2);
+            cls7.Set(0, 8);
+            cls7.Snap();
+            cls7.Set(0, 9);
+            cls7.Snap();
+            cls7.Snap();
+            cls7.Set(0, 1);
+            cls7.Snap();
+            cls7.Snap();
+            cls7.Snap();
+            cls7.Set(0, 1);
+            cls7.Snap();
+            cls7.Set(0, 1);
+            Assert.AreEqual(9, cls7.Get(0, 1));
+
+            SnapshotArray cls8 = new SnapshotArray(1);
+            cls8.Set(0, 4);
+            cls8.Set(0, 2);
+            cls8.Set(0, 17);
+
+            cls8.Snap();
+            cls8.Set(0, 2);
+            cls8.Snap();
+
+            cls8.Set(0, 0);
+            cls8.Set(0, 19);
+            cls8.Set(0, 3);
+
+            cls8.Set(0, 15);
+            cls8.Get(0, 20);
+            Assert.AreEqual(17, cls8.Get(0, 0));
+            cls8.Set(0, 1);

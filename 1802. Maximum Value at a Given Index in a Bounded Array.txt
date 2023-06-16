@@ -1,0 +1,7 @@
+            Assert.AreEqual(24, new MaxValue1802().MaxValue(1, 0, 24));
+            Assert.AreEqual(2, new MaxValue1802().MaxValue(4, 0, 6));
+            Assert.AreEqual(2, new MaxValue1802().MaxValue(4, 2, 6));
+            Assert.AreEqual(3, new MaxValue1802().MaxValue(6, 1, 10));
+            Assert.AreEqual(1, new MaxValue1802().MaxValue(4, 0, 4));
+            Assert.AreEqual(271698267, new MaxValue1802().MaxValue(3, 0, 815094800));
+            Assert.AreEqual(155230825, new MaxValue1802().MaxValue(6, 2, 931384943));
