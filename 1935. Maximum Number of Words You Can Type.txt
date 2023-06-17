@@ -1,0 +1,5 @@
+
+            Assert.AreEqual(1, new Maximum_Number_of_Words_You_Can_Type().CanBeTypedWords("hello world", "ad"));
+            Assert.AreEqual(1, new Maximum_Number_of_Words_You_Can_Type().CanBeTypedWords("leet code", "lt"));
+            Assert.AreEqual(0, new Maximum_Number_of_Words_You_Can_Type().CanBeTypedWords("leet code", "e"));
+        

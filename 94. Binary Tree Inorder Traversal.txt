@@ -1,0 +1,8 @@
+
+            TreeNode test = new TreeNode(1);
+            test.right = new TreeNode(2);
+            test.right.left = new TreeNode(3);
+            Assert.AreEqual(3, new InorderTraversal().InorderTraversal1(test)[1]);
+            Assert.AreEqual(0, new InorderTraversal().InorderTraversal1(null).Count);
+            Assert.AreEqual(1, new InorderTraversal().InorderTraversal1(new TreeNode(1))[0]);
+        
