@@ -1,0 +1,3 @@
+            Assert.AreEqual("leetcode", new Delete_Characters_to_Make_Fancy_String().MakeFancyString("leeetcode"));
+            Assert.AreEqual("aabaa", new Delete_Characters_to_Make_Fancy_String().MakeFancyString("aaabaaaa"));
+            Assert.AreEqual("aab", new Delete_Characters_to_Make_Fancy_String().MakeFancyString("aab"));

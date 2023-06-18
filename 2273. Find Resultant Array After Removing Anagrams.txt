@@ -1,0 +1,4 @@
+
+            Assert.IsTrue(Util.CompareList(new string[] { "abba", "cd" }, new Find_Resultant_Array_After_Removing_Anagrams().RemoveAnagrams(new string[] { "abba", "baba", "bbaa", "cd", "cd" })));
+            Assert.IsTrue(Util.CompareList(new string[] { "a", "b", "c", "d", "e" }, new Find_Resultant_Array_After_Removing_Anagrams().RemoveAnagrams(new string[] { "a", "b", "c", "d", "e" })));
+            Assert.IsTrue(Util.CompareList(new string[] { "a", "b", "a" }, new Find_Resultant_Array_After_Removing_Anagrams().RemoveAnagrams(new string[] { "a", "b", "a" })));

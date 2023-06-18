@@ -1,0 +1,3 @@
+            Assert.AreEqual("", new Greatest_English_Letter_in_Upper_and_Lower_Case().GreatestLetter("AbCdEfGhIjK"));
+            Assert.AreEqual("E", new Greatest_English_Letter_in_Upper_and_Lower_Case().GreatestLetter("lEeTcOdE"));
+            Assert.AreEqual("R", new Greatest_English_Letter_in_Upper_and_Lower_Case().GreatestLetter("arRAzFif"));
