@@ -1,0 +1,15 @@
+            Assert.AreEqual(2.65, new Calculate_Amount_Paid_in_Taxes().CalculateTax(new int[][] {
+                new int []{3,50 },
+                new int []{7,10 },
+                new int []{12,25 },
+            }, 10));
+
+            Assert.AreEqual(0, new Calculate_Amount_Paid_in_Taxes().CalculateTax(new int[][] {
+                new int []{2,50 },
+            }, 0));
+
+            Assert.AreEqual(0.25, new Calculate_Amount_Paid_in_Taxes().CalculateTax(new int[][] {
+                new int []{1,0 },
+                new int []{4,25 },
+                new int []{5,50 },
+            }, 2));
