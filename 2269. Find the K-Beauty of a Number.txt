@@ -1,0 +1,4 @@
+
+            Assert.AreEqual(2, new Find_the_K_Beauty_of_a_Number().DivisorSubstrings(240, 2));
+            Assert.AreEqual(2, new Find_the_K_Beauty_of_a_Number().DivisorSubstrings(430043, 2));
+        
