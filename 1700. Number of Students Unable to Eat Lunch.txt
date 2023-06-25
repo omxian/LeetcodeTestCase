@@ -1,0 +1,4 @@
+
+            Assert.AreEqual(0, new Number_of_Students_Unable_to_Eat_Lunch().CountStudents(new int[] { 1, 1, 0, 0 }, new int[] { 0, 1, 0, 1 }));
+            Assert.AreEqual(3, new Number_of_Students_Unable_to_Eat_Lunch().CountStudents(new int[] { 1, 1, 1, 0, 0, 1 }, new int[] { 1, 0, 0, 0, 1, 1 }));
+        

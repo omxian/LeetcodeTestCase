@@ -1,0 +1,5 @@
+
+            Assert.AreEqual(true, new Check_If_All_1_s_Are_at_Least_Length_K_Places_Away().KLengthApart(new int[] { 1, 0, 0, 0, 1, 0, 0, 1 }, 2));
+            Assert.AreEqual(false, new Check_If_All_1_s_Are_at_Least_Length_K_Places_Away().KLengthApart(new int[] { 1, 0, 0, 1, 0, 1 }, 2));
+            Assert.AreEqual(true, new Check_If_All_1_s_Are_at_Least_Length_K_Places_Away().KLengthApart(new int[] { 0, 1, 0, 1 }, 1));
+        
