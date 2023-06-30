@@ -1,0 +1,4 @@
+
+            Assert.AreEqual("23:50", new Latest_Time_by_Replacing_Hidden_Digits().MaximumTime("2?:?0"));
+            Assert.AreEqual("09:39", new Latest_Time_by_Replacing_Hidden_Digits().MaximumTime("0?:3?"));
+            Assert.AreEqual("19:22", new Latest_Time_by_Replacing_Hidden_Digits().MaximumTime("1?:22"));
