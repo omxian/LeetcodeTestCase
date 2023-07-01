@@ -1,0 +1,4 @@
+            Assert.AreEqual(2, new Maximum_Number_of_Balls_in_a_Box().CountBalls(1, 10));
+            Assert.AreEqual(2, new Maximum_Number_of_Balls_in_a_Box().CountBalls(5, 15));
+            Assert.AreEqual(2, new Maximum_Number_of_Balls_in_a_Box().CountBalls(19, 28));
+ 
